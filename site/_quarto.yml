@@ -21,37 +21,38 @@ metadata-files:
   - _learn-navigation.yml
 
 website:
-  description: "Learn the ideas behind strong backgammon decisions, one concept and one position at a time."
+  title: "Technology Commons"
+  description: "Course materials, projects, tools, and resources for technology education."
   search:
     location: navbar
     type: overlay
-  favicon: assets/icons/favicon.ico
-  image: /assets/social/generated/social-default.png
-  open-graph: true
-  twitter-card:
-    card-style: summary_large_image
   navbar:
-    logo: assets/logo.svg
-    logo-alt: "Backgammon Simplified"
+    title: "Technology Commons"
     collapse-below: xl
     left:
-      - text: Learn
-        href: learn/index.qmd
+      - href: tas2/index.qmd
+        text: TAS2
+      - href: tej3-4/index.qmd
+        text: TEJ3/4
+      - href: ttj3-4/index.qmd
+        text: TTJ3/4
+      - href: tools/index.qmd
+        text: Tools
+      - href: resources/index.qmd
+        text: Resources
       - href: research/index.qmd
         text: Research
-      - href: glossary/index.qmd
-        text: Glossary
+    right:
       - href: about.qmd
         text: About
   page-footer:
     left: |
-      Copyright 2026 Marty Gale - Backgammon Simplified
+      Technology Commons
     center:
-      - text: "Code: AGPL-3.0-only · Educational content: CC BY-SA 4.0 · Licensing"
-        href: /licensing.html
+      - text: "Open course materials for technology education"
     right:
-      - text: RSS
-        href: /updates/index.xml
+      - text: About
+        href: /about.html
 
 format:
   html:
