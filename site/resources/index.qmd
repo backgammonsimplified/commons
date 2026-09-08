@@ -1,0 +1,30 @@
+---
+title: "Resources"
+description: "Reference material and process guides used across Technology Commons."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Resources are things you read or reference while designing, building, programming, measuring, testing, and documenting work.
+:::
+
+## Design process
+
+[NICE Design Process](nice-design-process.qmd)
+
+## Reference library
+
+This section will grow to include Git, Linux, Python, data, Boolean logic, measurement, safety, CAD, fabrication, automotive, portfolio, citation, licensing, and accessibility references.
+
+The Technology Commons glossary will be linked here after its vocabulary has been retargeted from the original site.
+:::
+:::
