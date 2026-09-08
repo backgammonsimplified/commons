@@ -3,8 +3,9 @@ project:
   output-dir: _site
   render:
     - "**/*.qmd"
-    - "!research/sage-vs-gnu-additional-details.qmd"
-    - "!research/what-we-are-building.qmd"
+    - "!mindfulness/"
+    - "!posts/"
+    - "!research/"
   pre-render:
   - python ../scripts/bs_pre_render.py
   resources:
@@ -49,13 +50,13 @@ website:
         text: Tools
       - href: resources/index.qmd
         text: Resources
-      - href: mindfulness/index.qmd
-        text: Mindfulness & Wellness
+      - href: wellbeing/index.qmd
+        text: Wellbeing
     right:
-      - href: research/index.qmd
-        text: Research
       - href: glossary/index.qmd
         text: Glossary
+      - href: lore/index.qmd
+        text: Lore
       - href: about.qmd
         text: About
   sidebar:
