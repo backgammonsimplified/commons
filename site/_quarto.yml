@@ -13,14 +13,6 @@ project:
     - assets/bs-research-sequence.json
     - "assets/positions/**"
     - data/lesson-analysis-svg-mvp.json
-    - data/checker-sage-gnu-disagreement-001.json
-    - "data/engine-benchmark/**"
-    - "engine-benchmark/**/figures/**"
-    - "engine-benchmark/**/tables/**"
-    - "engine-benchmark/**/data/**"
-    - "engine-benchmark/**/captions.yml"
-    - "engine-benchmark/**/PUBLICATION_MANIFEST.yml"
-    - "engine-benchmark/**/checksums.sha256"
 
 filters:
   - bs-link-policy
@@ -45,12 +37,6 @@ website:
     left:
       - text: Learn
         href: learn/index.qmd
-      - href: analyze/index.qmd
-        text: Analyze
-      - href: match-predictor/index.qmd
-        text: Match Predictor
-      - href: engine-benchmark/sage-vs-gnu-stage1/index.qmd
-        text: Sage vs GNU
       - href: research/index.qmd
         text: Research
       - href: glossary/index.qmd
