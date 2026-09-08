@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!research/sage-vs-gnu-additional-details.qmd"
+    - "!research/what-we-are-building.qmd"
   pre-render:
   - python ../scripts/bs_pre_render.py
   resources:
