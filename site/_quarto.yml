@@ -7,6 +7,11 @@ project:
     - assets/logo.svg
     - "assets/icons/**"
     - "assets/social/generated/*.png"
+    - assets/bs-learn.js
+    - assets/bs-lesson-analysis.js
+    - assets/bs-learn-scroll.js
+    - assets/bs-research-index.js
+    - assets/bs-research-scroll.js
     - assets/bs-glossary.js
     - assets/bs-glossary-lookup.json
     - assets/bs-learn-sequence.json
@@ -41,22 +46,23 @@ website:
       - href: resources/index.qmd
         text: Resources
       - href: mindfulness/index.qmd
-        text: Mindfulness
-      - href: glossary/index.qmd
-        text: Glossary
+        text: Mindfulness & Wellness
+    right:
       - href: research/index.qmd
         text: Research
-    right:
+      - href: glossary/index.qmd
+        text: Glossary
       - href: about.qmd
         text: About
   page-footer:
     left: |
-      Technology Commons
+      Site created by [Andrew Andrade](https://ca.linkedin.com/in/andrewandrade)
     center:
-      - text: "Open course materials for technology education"
+      - text: "Educational content: CC BY-SA 4.0"
+        href: /licensing.html
     right:
-      - text: About
-        href: /about.html
+      - text: "Code: AGPL-3.0-only"
+        href: /licensing.html
 
 format:
   html:
