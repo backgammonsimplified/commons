@@ -16,6 +16,11 @@ execute:
 ---
 
 ```{=html}
+<style>
+.bs-glossary-related-groups {
+  display: none;
+}
+</style>
 <span id="bs-glossary-top" class="bs-glossary-top-target" tabindex="-1"></span>
 ```
 
