@@ -1,0 +1,27 @@
+---
+title: "Resources"
+page-layout: full
+toc: false
+format:
+  html:
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+subtitle: "COMMONS :: RESOURCES"
+---
+
+:::: {.bs-page-shell}
+::: {.bs-reading-column}
+Resources are things you read, reference, or return to while doing technical work.
+
+## Shared foundations
+
+- [NICE Design Process](nice-design-process.qmd)
+- Measurement and units
+- Git and GitHub reference
+- Linux reference
+- Documentation and portfolio expectations
+
+## Course references
+
+Course-specific references will be added as the lessons are developed. The goal is one shared resource library rather than copying the same explanation into several courses.
+:::
+::::

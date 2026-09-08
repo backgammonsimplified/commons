@@ -1,0 +1,38 @@
+---
+title: "TTJ3C / TTJ4C - Transportation Technology"
+subtitle: "COURSE :: TTJ3C / TTJ4C"
+sidebar: ttj
+page-layout: article
+toc: false
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+::: {.bs-lesson-preamble}
+TTJ develops automotive and shop knowledge through measured, documented hands-on work. Students design, fabricate, inspect, diagnose, service, and explain technical systems.
+:::
+
+<details class="bs-answer-panel" open>
+<summary>Course outline</summary>
+<div class="bs-answer-panel-content">
+
+1. Starting Point
+2. Identity, Marque & Shop Log
+3. Measurement & Onshape
+4. Fabrication & Shop Skills
+5. Automotive Systems
+6. Diagnosis & Service
+7. Major Project & Portfolio
+
+</div>
+</details>
+
+<details class="bs-answer-panel">
+<summary>How the course works</summary>
+<div class="bs-answer-panel-content">
+
+Hands-on access follows a release-to-build model. Planning, measurement, safety, simulation, or other preparation is completed before expensive equipment or shared vehicle systems are used. Evidence can include photographs, measurements, demonstrations, teacher observation, oral explanation, and short written documentation.
+
+</div>
+</details>

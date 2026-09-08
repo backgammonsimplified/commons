@@ -1,0 +1,31 @@
+---
+title: "Tools"
+page-layout: full
+toc: false
+format:
+  html:
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+subtitle: "COMMONS :: TOOLS"
+---
+
+:::: {.bs-page-shell}
+::: {.bs-reading-column}
+Tools are things you operate to do work. The first version of the Commons keeps this list small and points to the tools used directly in the courses.
+
+## Design
+
+- Onshape
+- Photopea
+
+## Computing and data
+
+- GitHub
+- Kaggle
+
+## Electronics
+
+- Tinkercad Circuits
+
+As the Commons grows, this page can become a searchable finder without changing the course structure.
+:::
+::::

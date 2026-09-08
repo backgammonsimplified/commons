@@ -1,0 +1,30 @@
+---
+title: "NICE Design Process"
+subtitle: "RESOURCE :: DESIGN PROCESS"
+page-layout: article
+toc: true
+toc-depth: 2
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+NICE is the design process used throughout Technology Commons. It is a cycle, not a checklist.
+
+## N: Needs & Necessities
+
+Identify the problem, the people involved, the constraints, and the things the solution must accomplish.
+
+## I: Investigate & Inquire
+
+Ask questions, research existing solutions, study standards and techniques, and gather the information needed to make good decisions.
+
+## C: Create & Communicate
+
+Sketch, model, code, build, test, document, and explain the work so that other people can understand what was created and why.
+
+## E: Evaluate
+
+Compare the result with the original needs and necessities. Use evidence to decide what worked, what did not, and what should change next.
+
+The result of Evaluate feeds back into Needs & Necessities, beginning the next cycle.

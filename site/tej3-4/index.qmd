@@ -1,0 +1,39 @@
+---
+title: "TEJ3M / TEJ4M - Computer Engineering Technology"
+subtitle: "COURSE :: TEJ3M / TEJ4M"
+sidebar: tej
+page-layout: article
+toc: false
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+::: {.bs-lesson-preamble}
+TEJ is organized around a real computing environment: Linux, Git, Python, logic, data, and machine learning. Hardware ideas are learned through the systems students actually use rather than by repeatedly disassembling computers.
+:::
+
+<details class="bs-answer-panel" open>
+<summary>Course outline</summary>
+<div class="bs-answer-panel-content">
+
+1. Starting Point
+2. Linux & Computer Systems
+3. Git, GitHub & Portfolio
+4. Python Foundations
+5. Logic & Digital Systems
+6. Python, Data & DataFrames
+7. Machine Learning
+8. Major Project & Portfolio
+
+</div>
+</details>
+
+<details class="bs-answer-panel">
+<summary>How the course works</summary>
+<div class="bs-answer-panel-content">
+
+Students build the environment they will use, then use it to create software and data projects. Grade 12 work can extend into model comparison, tiny language models, and tool-connected AI systems as appropriate.
+
+</div>
+</details>
