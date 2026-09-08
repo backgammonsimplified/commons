@@ -17,11 +17,13 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Technology Commons will use this section for research, classroom experiments, technical notes, and reflections on technology education.
+Research is where Technology Commons documents questions that need more than a lesson page.
 :::
 
-The previous Backgammon research articles have been removed from this migration branch. The reusable Research presentation layer remains in place so new Technology Commons work can be added without rebuilding the visual system.
+This section will collect classroom experiments, technical investigations, project notes, and reflections on technology education.
 
-Future topics may include engineering design, project-based learning, computing, fabrication, transportation technology, assessment, open educational resources, and the NICE design process.
+Topics may include engineering design, project-based learning, computing, fabrication, transportation technology, assessment, open educational resources, and the NICE design process.
+
+The aim is to make useful work inspectable: describe the question, show the method, record the evidence, and leave enough detail for someone else to learn from or repeat the work.
 :::
 :::
