@@ -29,28 +29,30 @@ def render_svg(svg_path: Path, png_path: Path, width: int, height: int | None = 
 
 
 def svg_to_dxf(svg_path: Path, dxf_path: Path, sample_step: float = 4.0):
-    """Convert vector paths to fabrication-friendly DXF polylines."""
+    """Convert SVG vector paths to fabrication-friendly DXF polylines."""
     paths, _, _ = svg2paths2(str(svg_path))
     doc = ezdxf.new(setup=True)
     doc.units = ezdxf.units.MM
     msp = doc.modelspace()
     for path in paths:
-        if len(path) == 0:
-            continue
-        points = []
-        for segment in path:
-            try:
-                length = max(float(segment.length(error=1e-4)), sample_step)
-            except Exception:
-                length = sample_step
-            samples = max(2, int(math.ceil(length / sample_step)) + 1)
-            for i in range(samples):
-                if points and i == 0:
-                    continue
-                z = segment.point(i / (samples - 1))
-                points.append((float(z.real), float(-z.imag)))
-        if len(points) >= 2:
-            msp.add_lwpolyline(points, close=path.isclosed())
+        for subpath in path.continuous_subpaths():
+            if len(subpath) == 0:
+                continue
+            points = []
+            for segment in subpath:
+                try:
+                    length = max(float(segment.length(error=1e-4)), sample_step)
+                except Exception:
+                    length = sample_step
+                samples = max(2, int(math.ceil(length / sample_step)) + 1)
+                for i in range(samples):
+                    if points and i == 0:
+                        continue
+                    z = segment.point(i / (samples - 1))
+                    points.append((float(z.real), float(-z.imag)))
+            if len(points) >= 2:
+                is_closed = abs(subpath.start - subpath.end) < 1e-6
+                msp.add_lwpolyline(points, close=is_closed)
     doc.saveas(dxf_path)
 
 
