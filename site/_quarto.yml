@@ -1,0 +1,98 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+  - python ../scripts/bs_pre_render.py
+  - python ../scripts/page_publication.py validate-source
+  post-render:
+  - python ../scripts/bs_post_render.py
+  - python ../scripts/page_publication.py apply
+  resources:
+    - assets/logo.svg
+    - "assets/icons/**"
+    - "assets/social/generated/*.png"
+    - assets/bs-glossary.js
+    - assets/bs-glossary-lookup.json
+    - assets/bs-learn-sequence.json
+    - assets/bs-research-sequence.json
+    - "assets/positions/**"
+    - data/lesson-analysis-svg-mvp.json
+    - data/checker-sage-gnu-disagreement-001.json
+    - "data/engine-benchmark/**"
+    - "engine-benchmark/**/figures/**"
+    - "engine-benchmark/**/tables/**"
+    - "engine-benchmark/**/data/**"
+    - "engine-benchmark/**/captions.yml"
+    - "engine-benchmark/**/PUBLICATION_MANIFEST.yml"
+    - "engine-benchmark/**/checksums.sha256"
+
+filters:
+  - bs-link-policy
+
+metadata-files:
+  - _publication.yml
+  - _learn-navigation.yml
+
+website:
+  description: "Learn the ideas behind strong backgammon decisions, one concept and one position at a time."
+  search:
+    location: navbar
+    type: overlay
+  favicon: assets/icons/favicon.ico
+  image: /assets/social/generated/social-default.png
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+  navbar:
+    logo: assets/logo.svg
+    logo-alt: "Backgammon Simplified"
+    collapse-below: xl
+    left:
+      - text: Learn
+        href: learn/index.qmd
+      - href: analyze/index.qmd
+        text: Analyze
+      - href: match-predictor/index.qmd
+        text: Match Predictor
+      - href: engine-benchmark/sage-vs-gnu-stage1/index.qmd
+        text: Sage vs GNU
+      - href: research/index.qmd
+        text: Research
+      - href: glossary/index.qmd
+        text: Glossary
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: |
+      Copyright 2026 Marty Gale - Backgammon Simplified
+    center:
+      - text: "Code: AGPL-3.0-only · Educational content: CC BY-SA 4.0 · Licensing"
+        href: /licensing.html
+    right:
+      - text: RSS
+        href: /updates/index.xml
+
+format:
+  html:
+    theme: [cosmo, assets/bs-theme.scss]
+    css:
+      - assets/bs-shared.css
+      - assets/bs-components.css
+      - assets/bs-learn.css
+      - assets/bs-lesson-analysis.css
+    include-after-body:
+      - includes/bs-scripts.html
+    include-in-header:
+      - includes/site-head.html
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    toc-title: "On this page"
+    smooth-scroll: true
+    link-external-newwindow: false
+    code-copy: true
+
+execute:
+  freeze: auto
+
+editor: source
