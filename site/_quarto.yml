@@ -40,6 +40,10 @@ website:
         text: Tools
       - href: resources/index.qmd
         text: Resources
+      - href: mindfulness/index.qmd
+        text: Mindfulness
+      - href: glossary/index.qmd
+        text: Glossary
       - href: research/index.qmd
         text: Research
     right:
@@ -60,6 +64,7 @@ format:
     css:
       - assets/bs-shared.css
       - assets/bs-components.css
+      - assets/commons-overrides.css
       - assets/bs-learn.css
       - assets/bs-lesson-analysis.css
     include-after-body:
