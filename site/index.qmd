@@ -18,7 +18,7 @@ TECHNOLOGY COMMONS
 <h1>Learn by designing, building,<br class="bs-home-desktop-break">testing, and sharing.</h1>
 
 ::: {.bs-hero-copy}
-Course materials, projects, tools, and references for technology education.
+Course materials, projects, tools, references, and classroom routines for technology education.
 :::
 ::::::
 
@@ -28,23 +28,31 @@ Course materials, projects, tools, and references for technology education.
 ::::: {.bs-home-explore-list}
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS2O - Exploring Technologies</span><span class="bs-home-explore-description">Explore design, digital tools, fabrication, electronics, and how ideas become working objects.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--learn}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ3M / TEJ4M - Computer Engineering Technology</span><span class="bs-home-explore-description">Work with computer systems, Linux, Git, Python, digital logic, data, and machine learning.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--analyze}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TTJ3C / TTJ4C - Transportation Technology</span><span class="bs-home-explore-description">Build shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, and service work.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](ttj3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--compare}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](ttj3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--ttj}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Tools</span><span class="bs-home-explore-description">Open the calculators, simulators, helpers, and design tools used across the courses.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tools/index.qmd){.bs-home-explore-link .bs-home-explore-link--glossary}
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Tools</span><span class="bs-home-explore-description">Use shared calculators, simulators, helpers, and design tools across the courses.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tools/index.qmd){.bs-home-explore-link .bs-home-explore-link--tools}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Resources</span><span class="bs-home-explore-description">Use course references, process guides, cheat sheets, safety material, and the NICE design process.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](resources/index.qmd){.bs-home-explore-link .bs-home-explore-link--glossary}
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Resources</span><span class="bs-home-explore-description">Open course references, process guides, cheat sheets, safety material, and the NICE design process.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](resources/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Mindfulness & Wellness</span><span class="bs-home-explore-description">Short opening and closing routines that help students settle, focus, reflect, and transition through class.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](mindfulness/index.qmd){.bs-home-explore-link .bs-home-explore-link--mindfulness}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Glossary</span><span class="bs-home-explore-description">Search the shared vocabulary used across lessons, tools, projects, and technical work.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](glossary/index.qmd){.bs-home-explore-link .bs-home-explore-link--glossary}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">Research</span><span class="bs-home-explore-description">Read classroom research, project notes, technical investigations, and open educational work.</span></span>
