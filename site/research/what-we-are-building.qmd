@@ -1,0 +1,49 @@
+---
+title: "What We Are Building"
+subtitle: "Technology Commons project update"
+description: >
+  How the courses, shared resources, glossary, research notes, and future NICE tool fit together.
+categories:
+  - Research
+tags:
+  - Project Updates
+  - Open Education
+  - Site Development
+format:
+  html:
+    page-layout: article
+    toc: true
+    toc-title: "On this Page"
+    toc-location: right
+    toc-depth: 2
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow bs-research-article"
+execute:
+  enabled: false
+---
+
+::: {.bs-editorial-lead}
+Technology Commons is being built as a shared teaching space for technology education, not just as a collection of files for one class.
+:::
+
+The current goal is to make the site useful during an ordinary school day. A student should be able to open a course, find the current lesson, use the same references and tools we use in class, and return later without needing a separate explanation of where everything lives.
+
+## Course spaces
+
+TAS2O, TEJ3M/4M, and TTJ3C/4C each have their own course path and sidebar. The courses share a common visual language, design process, glossary, resources, and tools while keeping the actual lesson sequence appropriate to each subject.
+
+## Shared tools and resources
+
+Tools are things students operate. Resources are things students read or reference. Keeping those roles separate should make the site easier to navigate while still allowing the same material to support several courses.
+
+## Glossary
+
+The glossary is a shared vocabulary layer. It will gradually move from inherited placeholder terms to Technology Commons language around engineering design, measurement, fabrication, computing, transportation, safety, technical communication, and the NICE process.
+
+## Research
+
+Research is intentionally separate from the student course navigation. This section can hold classroom experiments, technical notes, methods, project reflections, and longer explanations that are useful to educators or anyone who wants to look deeper.
+
+## What comes next
+
+The next major pieces are the live course content, a Technology Commons glossary, and later an interactive NICE tool that can help students record requirements, investigate ideas, create solutions, evaluate evidence, and save or export their progress.

@@ -1,6 +1,6 @@
 ---
 title: "Research"
-subtitle: "Technology education research and project notes"
+subtitle: "Articles, methods, and project notes"
 description: >
   Research, classroom experiments, technical notes, and open educational work
   from Technology Commons.
@@ -10,6 +10,14 @@ format:
     toc: false
     title-block-style: plain
     body-classes: "bs-editorial-page bs-title-eyebrow bs-research-index"
+listing:
+  id: research-posts
+  contents: "*.qmd"
+  template: _research-listing.ejs.md
+  sort: "title"
+  sort-ui: false
+  filter-ui: false
+  feed: false
 execute:
   enabled: false
 ---
@@ -17,13 +25,49 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Research is where Technology Commons documents questions that need more than a lesson page.
-:::
-
-This section will collect classroom experiments, technical investigations, project notes, and reflections on technology education.
-
-Topics may include engineering design, project-based learning, computing, fabrication, transportation technology, assessment, open educational resources, and the NICE design process.
-
-The aim is to make useful work inspectable: describe the question, show the method, record the evidence, and leave enough detail for someone else to learn from or repeat the work.
+Research is where Technology Commons publishes classroom experiments, project notes, methods, technical investigations, and reflections that do not belong inside day-to-day student lessons.
 :::
 :::
+
+```{=html}
+<section class="bs-research-filter-panel" data-bs-research-filters aria-label="Filter research articles">
+  <p class="visually-hidden">
+    Select a category or tag to filter the articles. Select an active filter again to clear it.
+  </p>
+
+  <div class="bs-research-filter-group">
+    <p class="bs-research-filter-label">Categories</p>
+    <div class="bs-research-filter-options" role="group" aria-label="Filter by category">
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Research" aria-pressed="false">
+        <span>Research</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="bs-research-filter-group" data-bs-tag-group>
+    <p class="bs-research-filter-label">Tags</p>
+    <div class="bs-research-filter-options" role="group" aria-label="Filter by tag" data-bs-tag-filters></div>
+  </div>
+
+  <div class="bs-research-filter-footer">
+    <p class="bs-research-result-count" aria-live="polite" data-bs-result-count></p>
+    <button type="button" class="bs-research-clear" data-bs-clear-filters hidden>
+      Clear filters
+    </button>
+  </div>
+</section>
+```
+
+::: {#research-posts}
+:::
+
+```{=html}
+<p class="bs-research-empty" data-bs-empty-state hidden>
+  No articles match the selected category and tag.
+</p>
+```
+:::
+
+```{=html}
+<script src="../assets/bs-research-index.js" defer></script>
+```
