@@ -10,7 +10,7 @@ This migration keeps the original presentation layer and removes Backgammon-spec
 3. Preserve the glossary system. Do not remove glossary generation. Later, replace the Backgammon term set with Technology Commons terms focused on engineering design, technical communication, fabrication, computing, measurement, safety, and course vocabulary.
 4. Remove the Backgammon application layer: position analyzer, Match Predictor, Shiny position dashboard, and engine benchmark application/report machinery. Preserve the common CSS, layout, components, transitions, navigation behavior, Learn shell, Research shell, and glossary system.
 5. Remove remaining Backgammon-specific content in small groups while keeping reusable presentation components.
-6. Add Technology Commons navigation and identity.
+6. Add Technology Commons identity, public navigation, course landing shells, Tools, Resources, and the NICE reference page.
 7. Add TAS2O, TEJ3M/4M, and TTJ3C/4C course sidebars and current course content.
 8. Retarget and expand the glossary for Technology Commons.
 9. Add the interactive NICE design-process tool after the core curriculum site is stable.
