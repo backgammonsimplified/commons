@@ -1,0 +1,92 @@
+---
+title: "Mindfulness & Wellness"
+description: "Short classroom routines and activities that help students settle, focus, reflect, and transition into and out of learning."
+page-layout: article
+toc: true
+execute:
+  enabled: false
+---
+
+::: {.bs-editorial-lead}
+A small amount of intentional time at the beginning and end of class can help students arrive, focus, reset, and leave with a clearer sense of what they did and what comes next.
+:::
+
+## Classroom purpose
+
+This section is for **classroom mindfulness and student wellness**, not counselling, diagnosis, or treatment.
+
+Activities here are designed to support attention, reflection, emotional regulation, classroom climate, and transitions. They should remain brief, inclusive, low-pressure, and appropriate to the learning environment.
+
+Students should never be required to disclose private experiences, mental health information, trauma, or personal problems as part of a mindfulness activity.
+
+If a student needs individual mental health support, use the school's established support and referral processes.
+
+## Beginning every class
+
+The opening routine should usually take about 3 to 5 minutes.
+
+1. **Quote on the board.** A short quotation, question, proverb, observation, or idea connected to learning, effort, curiosity, craft, responsibility, attention, or community.
+2. **Mindfulness activity.** A brief, approachable activity that helps the class settle and shift attention into the room.
+3. **Today's intention.** One sentence about what students are about to learn, make, investigate, repair, or improve.
+
+The activity should feel like a classroom ritual rather than a clinical exercise.
+
+## Ending every class
+
+The closing routine should also take about 3 to 5 minutes.
+
+1. **Pause and reset.** Stop work, put tools or devices into a safe state, and clear the immediate workspace.
+2. **Reflect.** Use one short prompt, observation, or playful attention activity.
+3. **Close the loop.** Identify what was completed, what remains unfinished, and the first useful action for next class.
+
+For shop classes, the closing routine also supports safe cleanup and a deliberate transition away from tools and equipment.
+
+## Activity ideas
+
+### Notice five
+
+Without speaking, notice five things you can see, four sounds you can hear, three physical sensations, two colours you had not noticed before, and one thing you are ready to focus on.
+
+### One-minute build observation
+
+Place an ordinary object, component, tool, fastener, or machine part where everyone can see it. Students silently notice as many design decisions as they can in one minute. Ask for observations about shape, material, joints, manufacturing, ergonomics, function, or failure points.
+
+### Box breathing, optional
+
+Invite students to breathe in, pause, breathe out, and pause for equal comfortable counts. Keep the activity optional and avoid presenting it as treatment for anxiety or another condition.
+
+### Sound map
+
+For 30 to 60 seconds, students listen without talking and mentally map sounds as near, medium, or far away. Then return attention to the room.
+
+### Precision challenge
+
+Ask students to estimate when 30 seconds has passed without checking a clock. Compare estimates and connect the result to measurement, calibration, tolerance, or human perception.
+
+### One good question
+
+Give students 60 seconds to write one question they are curious about today. It can be technical, practical, or connected to the day's work. No personal disclosure is required.
+
+### Reset the workspace
+
+Students take one quiet minute to arrange only what they need for the next task. In a computer class this can mean closing distractions and opening the required files. In a shop it can mean checking PPE, tools, and work area readiness.
+
+### Closing snapshot
+
+Students answer one of these privately or aloud, depending on the class:
+
+- What changed in your understanding today?
+- What worked better than expected?
+- What failed in a useful way?
+- What is the first thing you should do next class?
+- What would you explain differently if teaching this to someone else?
+
+## Professional scope
+
+The Ontario College of Teachers' professional advisory on supporting students' mental health says educators can promote positive mental health, create supportive learning environments, recognize concerns, and help students access appropriate support. It also states that educators should not diagnose mental health problems or propose treatment.
+
+Technology Commons uses that distinction here: these are educational classroom routines that support wellness and learning. They are not therapy.
+
+Teachers should also follow school board, employer, school, and Ministry policies and consult administration when a student concern requires additional support.
+
+[Ontario College of Teachers: Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health)
