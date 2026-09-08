@@ -1,20 +1,21 @@
 ---
-title: "Glossary"
-description: "A searchable glossary for concepts and technical vocabulary used throughout Technology Commons."
+title: "Backgammon Glossary"
+description: "A searchable backgammon dictionary of terms and glossary for concepts used throughout Backgammon Simplified."
 sidebar: false
 page-layout: article
 body-classes: bs-glossary-index
 toc: false
+canonical-url: "https://backgammonsimplified.github.io/glossary/"
+image: /assets/social/generated/social-glossary.png
+social-card: true
+social-card-slug: glossary
+social-card-kind: section
+social-card-category: Learn
 execute:
   enabled: false
 ---
 
 ```{=html}
-<style>
-.bs-glossary-related-groups {
-  display: none;
-}
-</style>
 <span id="bs-glossary-top" class="bs-glossary-top-target" tabindex="-1"></span>
 ```
 
@@ -22,7 +23,7 @@ execute:
 <section class="bs-glossary-filter-panel" data-bs-glossary-filters aria-label="Search and filter the glossary">
   <div class="bs-glossary-search-group">
     <label for="bs-glossary-search">Search terms and aliases</label>
-    <input id="bs-glossary-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search the glossary" data-bs-glossary-search>
+    <input id="bs-glossary-search" type="search" autocomplete="off" spellcheck="false" placeholder="Try “take point” or an alias" data-bs-glossary-search>
   </div>
 
   <details class="bs-glossary-filter-disclosure" data-bs-glossary-category-disclosure>

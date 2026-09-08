@@ -2,8 +2,8 @@
 title: "Research"
 subtitle: "Articles, methods, and project notes"
 description: >
-  Research, classroom experiments, technical notes, and open educational work
-  from Technology Commons.
+  Research articles, supporting analysis, methods, and project updates from
+  the work behind Backgammon Simplified.
 format:
   html:
     page-layout: article
@@ -25,7 +25,7 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Research is where Technology Commons publishes classroom experiments, project notes, methods, technical investigations, and reflections that do not belong inside day-to-day student lessons.
+Research is where we publish the methods, supporting analysis, project notes, and reproducibility details behind Backgammon Simplified.
 :::
 :::
 
@@ -38,6 +38,18 @@ Research is where Technology Commons publishes classroom experiments, project no
   <div class="bs-research-filter-group">
     <p class="bs-research-filter-label">Categories</p>
     <div class="bs-research-filter-options" role="group" aria-label="Filter by category">
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Learn" aria-pressed="false">
+        <span>Learn</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Position Analyzer" aria-pressed="false">
+        <span>Position Analyzer</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Match Predictor" aria-pressed="false">
+        <span>Match Predictor</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Engine Benchmark" aria-pressed="false">
+        <span>Engine Benchmark</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
       <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Research" aria-pressed="false">
         <span>Research</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
       </button>

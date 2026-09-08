@@ -1,13 +1,18 @@
 ---
 title: "What We Are Building"
-subtitle: "Technology Commons project update"
+subtitle: "Backgammon Simplified project update"
 description: >
-  How the courses, shared resources, glossary, research notes, and future NICE tool fit together.
+  How Backgammon Simplified connects lessons, position analysis, match
+  prediction, engine comparisons, research, and open-source tools.
 categories:
+  - Learn
+  - Position Analyzer
+  - Match Predictor
+  - Engine Benchmark
   - Research
 tags:
   - Project Updates
-  - Open Education
+  - Open-source Tools
   - Site Development
 format:
   html:
@@ -21,29 +26,84 @@ format:
 execute:
   enabled: false
 ---
-
 ::: {.bs-editorial-lead}
-Technology Commons is being built as a shared teaching space for technology education, not just as a collection of files for one class.
+Backgammon Simplified is growing into more than a collection of lessons. We are building a set of connected tools and projects that help players learn, analyze positions, follow interesting matches, and understand how backgammon engines reach their conclusions.
 :::
 
-The current goal is to make the site useful during an ordinary school day. A student should be able to open a course, find the current lesson, use the same references and tools we use in class, and return later without needing a separate explanation of where everything lives.
+Each part of the site has a different job, but they all support the same goal: make strong backgammon ideas easier to understand and use.
 
-## Course spaces
+## The learning and analysis tools
 
-TAS2O, TEJ3M/4M, and TTJ3C/4C each have their own course path and sidebar. The courses share a common visual language, design process, glossary, resources, and tools while keeping the actual lesson sequence appropriate to each subject.
+### Learn
 
-## Shared tools and resources
+Learn is the main teaching section of the site.
 
-Tools are things students operate. Resources are things students read or reference. Keeping those roles separate should make the site easier to navigate while still allowing the same material to support several courses.
+Each lesson starts with a real question, uses a position as an example, and explains the main idea in plain language. The goal is not only to show the best move. It is to help you recognize the same idea when a different position comes up in one of your own games.
 
-## Glossary
+### Explain
 
-The glossary is a shared vocabulary layer. It will gradually move from inherited placeholder terms to Technology Commons language around engineering design, measurement, fabrication, computing, transportation, safety, technical communication, and the NICE process.
+Explain lets you enter a position and see analysis from GNU and Sage.
 
-## Research
+Engines are very good at ranking moves, but their output does not always explain *why* one choice is better. We want to improve that by building a simple, interpretable model that connects engine results to features players can recognize, such as the race, board strength, anchors, primes, contact, and threats.
 
-Research is intentionally separate from the student course navigation. This section can hold classroom experiments, technical notes, methods, project reflections, and longer explanations that are useful to educators or anyone who wants to look deeper.
+The explainer will not replace the engines. It will help turn their results into something easier to learn from.
 
-## What comes next
+### Match Predictor
 
-The next major pieces are the live course content, a Technology Commons glossary, and later an interactive NICE tool that can help students record requirements, investigate ideas, create solutions, evaluate evidence, and save or export their progress.
+Match Predictor uses match data to explore how differences in Performance Rating, or PR, affect match results.
+
+It is also meant to be fun. Before a big match, you can compare the players, see what the data suggests, and build some excitement around the matchup. It will never know who is going to win, because dice and match situations still matter, but it can give useful context.
+
+## Engine comparison and research
+
+### GNU vs Sage
+
+GNU vs Sage compares two backgammon bots by having them play and then studying where their decisions differ.
+
+The match results are interesting on their own, but the project also helps the rest of the site. Engine disagreements can become Learn lessons, detailed Research posts, or examples for improving the explainer model.
+
+The code and data are being organized so the results can be checked and reproduced, not just posted as a scoreboard.
+
+### Research
+
+Research is where we can go into more detail.
+
+It will include articles and blog-like posts about what we are planning, what we are testing, what we have learned, and what still needs work. It is also where we can share extra charts, methods, and explanations that would make the main pages too crowded.
+
+The front page should stay clear and easy to follow. Research is for readers who want to look deeper.
+
+## Open-source tools
+
+Several open-source projects support the website.
+
+### `engine-kit`
+
+`engine-kit` provides helper functions for working with board positions and bot services. It gives the different engines and applications a common way to describe the same position, move, cube state, and match situation.
+
+### `engine-benchmark`
+
+`engine-benchmark` contains the code used to run and reproduce the bot-versus-bot matches. This is where the GNU vs Sage results can be generated, checked, and repeated.
+
+### The Explain app
+
+The position explainer on the website is also open source. That means its analysis and explanation system can be inspected and improved over time.
+
+### `backgammonboard`
+
+`backgammonboard` is an R library for drawing backgammon positions. We use it for Learn lessons, match analysis, bot comparisons, and Research posts.
+
+### `backgammoncalculator`
+
+`backgammoncalculator` is an R library for reusable backgammon calculations. It supports lessons, match analysis, bot results, and research without requiring the same calculations to be rebuilt for every project.
+
+## How it fits together
+
+A GNU vs Sage match may uncover an interesting position. That position may become a Research post, a new Learn lesson, or an example used to improve Explain. The same open-source tools help us draw the board, run the analysis, check the results, and publish what we learned.
+
+That is what we are building: a place to learn the game, explore difficult positions, follow interesting experiments, and understand more of what the engines are seeing.
+
+## Related pages
+
+- [Browse all Research posts](index.qmd)
+- [Read about the Backgammon Engine Benchmark](../engine-benchmark/index.qmd)
+- [Read Sage vs GNU: Stage 1](../engine-benchmark/sage-vs-gnu-stage1/index.qmd)
