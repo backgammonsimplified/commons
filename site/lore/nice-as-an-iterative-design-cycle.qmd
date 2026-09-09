@@ -1,22 +1,18 @@
 ---
-title: "From a January Walk to NICE"
-subtitle: "Why I wanted a simpler design process, and why evaluation has to change the needs too"
+title: "Redesigning the Design Process"
+subtitle: "From a January walk to NICE"
 description: >
-  How a winter walk along the Mississauga lakeshore, engineering design,
-  classroom practice, and Lean Startup ideas led me to a simpler iterative
-  design process for technology education.
+  Why I wanted a simpler design process for technology education, and why
+  evaluation should send us back to the needs.
 author: "Andrew Andrade"
 date: "2026-09-08"
 categories:
-  - Teaching
+  - Lore
   - Design
-  - Reflection
 tags:
   - NICE
   - Engineering Design
-  - Lean Startup
-  - Project-Based Learning
-  - Technology Education
+  - Iteration
 format:
   html:
     page-layout: article
@@ -31,169 +27,52 @@ execute:
 ---
 
 ::: {.bs-editorial-lead}
-Before I started teaching at Port Credit, I was walking through a park along the lakeshore in Mississauga in January and thinking about a problem I had not yet figured out: how was I going to teach design in a way students could actually use while they were designing?
+Before teaching at Port Credit, I was walking through a park along the Mississauga lakeshore in January and wondering how I was going to teach technological design well. Mechatronics had made me comfortable with mechanical, electrical, controls, and robotics design. Wood, aesthetics, material expression, and craft were less familiar territory.
 :::
 
-## A winter walk before the classroom
+Looking at the trees, I started thinking about wood as a material with its own properties and history. More importantly, I started thinking about design as a natural cycle rather than a straight sequence.
 
-I had studied mechatronics engineering, so design was not foreign to me. Mechanical design, electrical systems, controls, programming, robotics, and the integration between them were all part of my background.
+## Too many boxes
 
-But the technology design classroom was going to ask something a little different from me.
+The design-process models I knew were useful, but they were difficult to hold in your head while actually building something. The older Ontario technological education process made iteration explicit. TeachEngineering uses Ask, Research, Imagine, Plan, Create, Test, Improve, then repeat. SPICE compresses the work into Situation, Problem, Ideas and Investigation, Choose and Construct, and Evaluation.
 
-There would be more attention to visual design, materials, fabrication, form, and craft. There would be wood. There would be projects where the answer was not simply whether a circuit worked, a mechanism moved, or a robot completed a task. A design might work technically and still feel awkward, look unfinished, use the wrong material, or fail to fit the person who was supposed to use it.
+:::: {.columns}
+::: {.column width="50%"}
+![Older Ontario technological education design process.](https://elsiecommtech.weebly.com/uploads/2/3/8/9/23899702/design-process-ministry_1.png){fig-alt="Circular Ontario design process showing that any step can be revisited."}
 
-That was not the part of engineering I thought of as my strongest area.
+[Ontario design process source](https://www.edu.gov.on.ca/eng/curriculum/secondary/2009teched1112curr.pdf#page=23)
+:::
 
-As I walked, I started thinking about the trees around me. They were not just scenery. They were also materials.
+::: {.column width="50%"}
+![TeachEngineering engineering design process.](https://teachengineering.org/content/EDPHub_Graphic_square.png){fig-alt="TeachEngineering circular process: Ask, Research, Imagine, Plan, Create, Test, Improve."}
 
-Different trees produce wood with different grain, density, stiffness, strength, moisture behaviour, appearance, machinability, and durability. The material has a history before it becomes something we cut, join, finish, or build with. It grows, responds to its environment, changes over time, becomes material, gets shaped into something useful, and eventually becomes part of another cycle.
+[TeachEngineering design process](https://www.teachengineering.org/popular-topics/engineering-design-process)
+:::
+::::
 
-The more I thought about it, the less a design process felt like a straight line.
+[Mr. Elsie's technology education page](https://elsiecommtech.weebly.com/the-design-process.html) also brings the Ontario process and SPICE together in one place.
 
-It felt like a cycle.
+## NICE
 
-## The problem with teaching the process as a process
+I wanted something simple enough to remember at a workbench:
 
-There was no shortage of design-process models available to me.
+- **N - Needs and Necessities**
+- **I - Investigate and Inquire**
+- **C - Create and Communicate**
+- **E - Evaluate**
 
-The 2009 Ontario Technological Education curriculum describes a design process that includes analysing the context, defining the problem, conducting research, generating possible solutions, choosing a solution, building a prototype, testing and evaluating it, and reflecting on the process. The accompanying diagram is explicitly iterative and says that any step can be revisited.
+The important move is **E back to N**.
 
-TeachEngineering presents another strong model: Ask, Research, Imagine, Plan, Create, Test, Improve, and then repeat.
+An MVP or prototype gives us something real to test. Evaluation asks whether the solution met the needs, but it should also ask whether we understood the needs correctly in the first place. Users may reveal priorities they could not describe before seeing or using a solution. The best inventions sometimes expose needs people did not yet know how to name.
 
-I had also seen SPICE used in technology education: Situation, Problem, Ideas and Investigation, Choose and Construct, Evaluation, with detours and backtracking built into the model.
+## A spiral, not a circle
 
-None of these are bad processes. In fact, all three acknowledge iteration. The problem I was trying to solve was different.
+I do not picture NICE as a flat loop. I picture it rising as it repeats. At the bottom, the problem is broad and poorly defined. Each cycle adds evidence, user feedback, failures, and better questions. The spiral becomes tighter as it rises, like the shape of a coniferous tree.
 
-Could a student remember the process while standing at a workbench, looking at a half-built prototype, without needing to pull out a flow chart?
+::: {.bs-figure-slot role="group" aria-label="NICE spiral diagram placeholder"}
+[NICE SPIRAL DIAGRAM PLACEHOLDER]{.bs-figure-slot-label}
 
-Could the process be short enough to become a habit of thought instead of another worksheet?
+Show `N -> I -> C -> E -> N` climbing upward in repeated loops. The lower loops are broad and uncertain. The upper loops become tighter and better defined, forming the profile of a coniferous tree.
+:::
 
-### The models I was trying to simplify
-
-| Model | Main flow |
-|---|---|
-| Ontario Technological Education | Define -> Research -> Generate -> Choose -> Build -> Test -> Reflect |
-| TeachEngineering | Ask -> Research -> Imagine -> Plan -> Create -> Test -> Improve |
-| SPICE | Situation -> Problem -> Ideas & Investigation -> Choose & Construct -> Evaluation |
-| NICE | Needs & Necessities -> Investigate & Inquire -> Create & Communicate -> Evaluate -> back to Needs & Necessities |
-
-The original diagrams are useful because they show how much is happening inside good design work. They are also exactly why I wanted a smaller model for everyday classroom use.
-
-[Ontario Technological Education, Grades 11 and 12, 2009, see pp. 21-23](https://www.edu.gov.on.ca/eng/curriculum/secondary/2009teched1112curr.pdf#page=23)
-
-[TeachEngineering: Engineering Design Process](https://www.teachengineering.org/popular-topics/engineering-design-process)
-
-[SPICE: A Design Process Model](https://mfranzen.ca/docs/gen/spice-design-flow-chart.pdf)
-
-## Start with needs, but do not assume we understand them
-
-The first letter became **N: Needs & Necessities**.
-
-I wanted students to begin by asking what the design actually has to do.
-
-A **need** is something the design must satisfy. It should be specific enough that we can eventually test it. A student should be able to say what the minimum acceptable condition is.
-
-A **necessity** is something that matters, but can be traded against other priorities. Cost, appearance, convenience, speed, weight, sustainability, ease of manufacture, repairability, or comfort might all matter without having the same priority.
-
-That distinction gives students something practical to design against.
-
-But there is a deeper problem: users do not always know how to state their own needs.
-
-People are usually very good at describing frustrations, habits, workarounds, and things they wish were easier. They are not always able to describe the product or interface that would solve those problems.
-
-The smartphone is a useful example. The underlying needs for communication, portable information, photography, navigation, entertainment, and internet access existed before the modern smartphone. But most users were not asking designers for the exact combination of a large multitouch display, software keyboard, browser, sensors, applications, and interaction patterns that would later become normal.
-
-Good invention is not just listening for someone to hand you a specification. Sometimes it means observing people closely enough to discover a need they cannot yet name clearly.
-
-That means the first version of N is always provisional.
-
-## Investigate before becoming attached to an answer
-
-**I: Investigate & Inquire** is where assumptions become questions.
-
-This can include research, measurements, interviews, observations, material tests, teardown work, sketches, existing products, constraints, standards, and experiments.
-
-The wording matters to me. Investigation is not only finding information. Inquiry means continuing to ask whether the original framing is correct.
-
-What do users actually do?
-
-What do they say they do?
-
-Where do those answers differ?
-
-What material properties actually matter here?
-
-What limitation is real, and what limitation did we simply assume?
-
-A better question can be more valuable than a faster answer.
-
-## Create something early enough to learn from it
-
-**C: Create & Communicate** is deliberately broad.
-
-Creation might be a cardboard model, a CAD assembly, a circuit, a block of code, a woodworking joint, a test coupon, a sketch, a paper interface, a 3D print, or a rough prototype.
-
-It does not have to be polished.
-
-This part of NICE is influenced by the Lean Startup idea of the **minimum viable product**, or MVP. The point of an MVP is not to make the cheapest possible final product. It is to build enough of something real that you can learn from actual use before spending too much time perfecting the wrong idea.
-
-That is a powerful classroom idea too.
-
-Students often want to finish before they test. I would rather have them build something crude enough to fail early, show it to someone, measure it, learn something, and improve it while there is still time to change direction.
-
-Communication belongs in the same stage because a design that cannot be explained is difficult to evaluate with other people. Sketches, drawings, CAD, code comments, dimensions, demonstrations, prototypes, and conversation all make the idea visible enough for feedback.
-
-[Lean Startup: Build-Measure-Learn and validated learning](https://leanstartup.co/about/principles/)
-
-[Eric Ries on the Minimum Viable Product](https://leanstartup.co/resources/articles/what-is-an-mvp/)
-
-## Evaluation should question the solution and the need
-
-**E: Evaluate** is where NICE differs most clearly in how I want students to use it.
-
-Most design processes tell us to test the prototype and improve the design. That is essential, but it is not enough.
-
-Evaluation should ask two different questions:
-
-1. **Did our solution meet the needs and necessities we defined?**
-2. **After testing it with real people, were those actually the right needs and necessities?**
-
-That second question changes everything.
-
-A prototype can fail because the solution is poor. It can also fail because we solved the wrong problem.
-
-A user might tell us that the feature we considered essential does not matter very much. Something we treated as optional might turn out to be critical. A test might reveal that our minimum acceptable condition was unrealistic. A workaround might expose a completely different need.
-
-That is why the arrow after E does not simply point back to Create.
-
-It points back to **N**.
-
-## N -> I -> C -> E -> N
-
-The cycle is:
-
-**Needs & Necessities -> Investigate & Inquire -> Create & Communicate -> Evaluate -> Needs & Necessities**
-
-You can move backward whenever the work demands it. Real design is messy. But making the return to N explicit is important because it reminds us that requirements are not sacred just because we wrote them first.
-
-This is already implicit in good engineering and product development. The Ontario curriculum notes that an iterative process may require returning to the beginning when the situation needs to be clarified and the problem redefined. Lean product teams use feedback from real users to decide what to change, what to keep, and sometimes whether they were building the right thing at all.
-
-NICE makes that behaviour visible and memorable for students.
-
-## Why keep it this simple?
-
-I do not want students to think engineering is easy. It is not.
-
-I want the *framework* to be easy to remember so their attention can stay on the difficult part: understanding people, asking better questions, choosing materials, making trade-offs, building carefully, testing honestly, communicating clearly, and changing their minds when the evidence says they should.
-
-The complicated work belongs inside the four letters.
-
-The letters just give us somewhere to put it.
-
-I did not have all of that language worked out during that January walk along the lake. I was mostly thinking about teaching, trees, wood, and the uncomfortable feeling of preparing to teach a kind of design that stretched me beyond the parts of engineering where I felt most fluent.
-
-But that was probably the right place for the idea to begin.
-
-Not with a finished answer.
-
-With a need I did not yet fully understand.
+NICE is not meant to remove the complexity of design. It is meant to give that complexity a four-letter structure students can remember while they are doing the work.
