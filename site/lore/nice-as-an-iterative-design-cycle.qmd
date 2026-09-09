@@ -1,6 +1,6 @@
 ---
-title: "Redesigning the Design Process"
-subtitle: "From a January walk to NICE"
+title: "N.I.C.E. Design"
+subtitle: "Redesigning the Design Process"
 description: >
   Why I wanted a simpler design process for technology education, and why
   evaluation should send us back to the needs.
@@ -10,7 +10,7 @@ categories:
   - Lore
   - Design
 tags:
-  - NICE
+  - N.I.C.E.
   - Engineering Design
   - Iteration
 format:
@@ -29,6 +29,8 @@ execute:
 ::: {.bs-editorial-lead}
 Before teaching at Port Credit, I was walking through a park along the Mississauga lakeshore in January and wondering how I was going to teach technological design well. Mechatronics had made me comfortable with mechanical, electrical, controls, and robotics design. Wood, aesthetics, material expression, and craft were less familiar territory.
 :::
+
+There is also a small joke built into the name. After enough iteration, testing, and user feedback, the response you hope to hear is: **"Nice design."**
 
 Looking at the trees, I started thinking about wood as a material with its own properties and history. More importantly, I started thinking about design as a natural cycle rather than a straight sequence.
 
@@ -50,9 +52,9 @@ The design-process models I knew were useful, but they were difficult to hold in
 :::
 ::::
 
-[Mr. Elsie's technology education page](https://elsiecommtech.weebly.com/the-design-process.html) also brings the Ontario process and SPICE together in one place. The SPICE model shown there was created by [Mr. Franzen](https://mfranzen.ca/docs/gen/spice-design-flow-chart.pdf).
+[Mr. Elsie's technology education page](https://elsiecommtech.weebly.com/the-design-process.html) also brings the Ontario process and SPICE together in one place. The SPICE model shown there was created by **Mr. Franzen**: [SPICE Design Flow Chart](https://mfranzen.ca/docs/gen/spice-design-flow-chart.pdf).
 
-## NICE
+## N.I.C.E.
 
 I wanted something simple enough to remember at a workbench:
 
@@ -67,12 +69,12 @@ An MVP or prototype gives us something real to test. Evaluation asks whether the
 
 ## A spiral, not a circle
 
-I do not picture NICE as a flat loop. I picture it rising as it repeats. At the bottom, the problem is broad and poorly defined. Each cycle adds evidence, user feedback, failures, and better questions. The spiral becomes tighter as it rises, like the shape of a coniferous tree.
+I do not picture N.I.C.E. Design as a flat loop. I picture it rising as it repeats. At the bottom, the problem is broad and poorly defined. Each cycle adds evidence, user feedback, failures, and better questions. The spiral becomes tighter as it rises, like the shape of a coniferous tree.
 
-::: {.bs-figure-slot role="group" aria-label="NICE spiral diagram placeholder"}
-[NICE SPIRAL DIAGRAM PLACEHOLDER]{.bs-figure-slot-label}
+::: {.bs-figure-slot role="group" aria-label="N.I.C.E. spiral diagram placeholder"}
+[N.I.C.E. SPIRAL DIAGRAM PLACEHOLDER]{.bs-figure-slot-label}
 
 Show `N -> I -> C -> E -> N` climbing upward in repeated loops. The lower loops are broad and uncertain. The upper loops become tighter and better defined, forming the profile of a coniferous tree.
 :::
 
-NICE is not meant to remove the complexity of design. It is meant to give that complexity a four-letter structure students can remember while they are doing the work.
+N.I.C.E. Design is not meant to remove the complexity of design. It is meant to give that complexity a four-letter structure students can remember while they are doing the work.
