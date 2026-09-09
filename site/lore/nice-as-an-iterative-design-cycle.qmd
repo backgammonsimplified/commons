@@ -50,7 +50,7 @@ The design-process models I knew were useful, but they were difficult to hold in
 :::
 ::::
 
-[Mr. Elsie's technology education page](https://elsiecommtech.weebly.com/the-design-process.html) also brings the Ontario process and SPICE together in one place.
+[Mr. Elsie's technology education page](https://elsiecommtech.weebly.com/the-design-process.html) also brings the Ontario process and SPICE together in one place. The SPICE model shown there was created by [Mr. Franzen](https://mfranzen.ca/docs/gen/spice-design-flow-chart.pdf).
 
 ## NICE
 
