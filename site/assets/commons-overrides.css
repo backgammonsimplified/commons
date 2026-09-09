@@ -141,18 +141,68 @@ body.bs-research-article #title-block-header .quarto-categories {
   margin: 0;
 }
 
-body.bs-research-article .commons-logo-gallery,
-body.bs-research-article .commons-logo-progression {
-  margin: 1.5rem 0 2rem;
-}
-
-body.bs-research-article .commons-logo-gallery img,
-body.bs-research-article .commons-logo-progression img {
-  width: 100%;
-  height: auto;
+/* Logo redesign animation uses the existing source images so it remains lightweight. */
+body.bs-research-article .commons-logo-animation {
+  position: relative;
+  width: min(100%, 720px);
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem auto 2rem;
+  overflow: hidden;
   border: 1px solid var(--bs-border);
   border-radius: 8px;
   background: var(--bs-surface);
+}
+
+body.bs-research-article .commons-logo-animation img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 1rem;
+  opacity: 0;
+  animation: commons-logo-cycle 12s infinite;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(2) {
+  animation-delay: 3s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(3) {
+  animation-delay: 6s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(4) {
+  animation-delay: 9s;
+}
+
+@keyframes commons-logo-cycle {
+  0%, 20% { opacity: 1; }
+  25%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.bs-research-article .commons-logo-animation {
+    aspect-ratio: auto;
+    display: grid;
+    gap: 0.75rem;
+    border: 0;
+    overflow: visible;
+  }
+
+  body.bs-research-article .commons-logo-animation img {
+    position: static;
+    height: auto;
+    opacity: 1;
+    animation: none;
+    border: 1px solid var(--bs-border);
+    border-radius: 8px;
+  }
 }
 
 @media (max-width: 560px) {
