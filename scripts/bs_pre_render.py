@@ -15,17 +15,14 @@ def run(command: list[str]) -> None:
 
 
 def main() -> int:
-    # Quarto sets this to "1" only when rendering the complete project.
+    # Full project renders generate and validate the glossary. Incremental page
+    # previews reuse the committed generated glossary files so editing a lesson
+    # or Lore post does not launch the glossary pipeline on every refresh.
     if os.getenv("QUARTO_PROJECT_RENDER_ALL") != "1":
-        print("Incremental development render: verifying Commons glossary freshness.")
-        run(
-            [
-                sys.executable,
-                str(REPO_ROOT / "scripts" / "commons_glossary.py"),
-                "validate",
-            ]
+        print("Incremental preview: reusing generated Commons glossary files.")
+        print(
+            "After glossary edits, run: python scripts/commons_glossary.py generate"
         )
-        print("Incremental development render: Commons glossary source is current.")
         return 0
 
     print("Full project render: generating Commons glossary source.")
