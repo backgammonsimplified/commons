@@ -38,6 +38,37 @@ jobs:
           tail -n 250 /tmp/quarto-render.log
           exit $status
 
+      - name: Capture browser previews
+        if: success()
+        shell: bash
+        run: |
+          mkdir -p /tmp/logo-preview
+          python -m http.server 8000 --directory site/_site >/tmp/logo-preview/server.log 2>&1 &
+          server_pid=$!
+          trap 'kill $server_pid || true' EXIT
+          sleep 2
+          if command -v google-chrome >/dev/null 2>&1; then
+            chrome=google-chrome
+          elif command -v chromium-browser >/dev/null 2>&1; then
+            chrome=chromium-browser
+          elif command -v chromium >/dev/null 2>&1; then
+            chrome=chromium
+          else
+            echo 'No Chromium-based browser found on runner.'
+            exit 1
+          fi
+          "$chrome" --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,10000 --screenshot=/tmp/logo-preview/article.png http://127.0.0.1:8000/lore/from-a-pen-and-paper-mark-to-a-crest.html
+          "$chrome" --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,5000 --screenshot=/tmp/logo-preview/lore-index.png http://127.0.0.1:8000/lore/index.html
+
+      - name: Upload browser previews
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logo-redesign-browser-preview
+          path: /tmp/logo-preview/*.png
+          if-no-files-found: error
+          retention-days: 3
+
       - name: Upload render log
         if: always()
         uses: actions/upload-artifact@v4
