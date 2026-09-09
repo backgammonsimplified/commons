@@ -16,7 +16,7 @@ tags:
   - Visual Identity
   - Technology Commons
 reading-time: "5 min"
-image: "../assets/lore/logo-redesign/05-logo-redesign-gallery.webp"
+image: "../assets/lore/logo-redesign/04-crest-iteration-sequence.webp"
 format:
   html:
     page-layout: article
@@ -56,15 +56,17 @@ In Canada today, Catholic identity is not something I need a logo to defend, and
 
 That helped push the mark away from being read too literally as a religious symbol and toward forms that could connect more broadly: structure, motion, shelter, direction, growth, and place.
 
-## The black-and-white experiments
+## The experiments are part of the design
 
-Once I moved from paper into digital tools, I deliberately explored too many ideas. Some were useful logo studies. Some became abstract art instead of logos. That distinction was helpful.
+Once I moved from paper into digital tools, I deliberately explored too many ideas. Some were useful logo studies. Some became abstract art instead of logos.
 
-::: {.commons-logo-gallery}
-![A chronological gallery of AA and Commons identity studies, beginning with the curved AA mark, moving through black-and-white geometric experiments, then lighthouse, leaf, root, wave, and colour studies before the current emblem.](../assets/lore/logo-redesign/05-logo-redesign-gallery.webp){fig-alt="Chronological gallery of twelve logo and emblem studies."}
-:::
+![A black-and-white abstract exploration built from the AA geometry.](../assets/lore/logo-redesign/03-abstract-art-detour.webp){fig-alt="A black-and-white abstract exploration of the AA geometry."}
 
-The black-and-white studies forced me to look at shape without depending on colour, texture, glow, or shading. Some of the circular and mirrored versions are interesting images, but they are closer to abstract art. If a design becomes unreadable at favicon size or depends on visual effects to work, it is probably not doing the job of a logo anymore.
+The black-and-white experiments forced me to look at shape without depending on colour, texture, glow, or shading. Circular, mirrored, arrow, and flowing versions all tested different readings of the same basic geometry. Some were interesting images but poor logos. If a design becomes unreadable at favicon size or depends on visual effects to work, it is probably not doing the job of a logo anymore.
+
+The next step was to move from a personal mark toward an identity for the site.
+
+![A chronological sequence of lighthouse and Commons emblem iterations, including simpler and intentionally over-complex versions.](../assets/lore/logo-redesign/04-crest-iteration-sequence.webp){fig-alt="A chronological sequence of Commons emblem iterations."}
 
 ## From a personal logo to a Commons emblem
 
@@ -83,8 +85,11 @@ The lighthouse, leaves, roots, waves, and light did not arrive at once. Early ve
 
 ## Watching the identity iterate
 
-::: {.commons-logo-progression}
-![Animated progression from the AA mark through geometric studies and lighthouse iterations to the current Technology Commons emblem.](../assets/lore/logo-redesign/06-logo-redesign-progression.gif){fig-alt="Animated sequence showing the logo progressing from a simple AA mark to the current Commons emblem."}
+::: {.commons-logo-animation aria-label="Animated progression from the original AA mark to the Commons emblem"}
+<img src="../assets/lore/logo-redesign/01-original-monogram.webp" alt="Original AA mark">
+<img src="../assets/lore/logo-redesign/02-curved-monogram.webp" alt="Curved AA mark">
+<img src="../assets/lore/logo-redesign/03-abstract-art-detour.webp" alt="Abstract AA experiment">
+<img src="../assets/lore/logo-redesign/04-crest-iteration-sequence.webp" alt="Commons emblem iteration sequence">
 :::
 
 The animation makes the design process easier to see. The identity does not jump from one answer to another. It accumulates ideas, rejects some of them, and then simplifies again.
