@@ -1,24 +1,22 @@
 ---
-title: "From a Pen-and-Paper Mark to a Crest"
-subtitle: "What redesigning my own logo taught me about iteration, simplification, and identity"
+title: "From a Napkin Sketch to a Logo and Commons Emblem"
+subtitle: "A personal mark can stay simple while a larger identity carries more of the story"
 description: >
-  A personal logo redesign became an exercise in iteration: start with a simple
-  mark, explore meaning, make mistakes, simplify, and keep enough character for
-  the result to still feel like your own.
+  How a hand-drawn AA mark became a cleaner personal logo, then expanded through
+  many experiments into the current Technology Commons emblem.
 author: "Andrew Andrade"
-date: "2026-09-15"
+date: "2026-09-09"
 categories:
-  - Teaching
+  - Lore
   - Design
   - Reflection
 tags:
   - Logo Design
   - Iteration
   - Visual Identity
-  - Making
-  - Technology Education
-reading-time: "6 min"
-image: "../assets/lore/logo-redesign/04-crest-iteration-sequence.webp"
+  - Technology Commons
+reading-time: "5 min"
+image: "../assets/lore/logo-redesign/05-logo-redesign-gallery.webp"
 format:
   html:
     page-layout: article
@@ -33,107 +31,64 @@ execute:
 ---
 
 ::: {.bs-editorial-lead}
-The logo I use now did not begin in Illustrator, a logo generator, or a polished design program. The first version began with pen and paper. That matters, because the useful part of this story is not the finished crest. It is the sequence of decisions, experiments, mistakes, and simplifications that got me there.
+The first version of my mark was the kind of idea that can begin as a sketch on a napkin: two A's reduced until they became one symbol. The useful lesson is not the final image. It is how the identity changed as I kept drawing, testing, removing, and adding meaning.
 :::
 
-## Start with a mark, not a masterpiece
+## A personal logo should stay simple
 
-My original personal mark was a very simple combination of my initials, **AA**. It was thin, angular, and almost entirely made from straight lines.
+My original AA mark was thin, angular, and easy to draw by hand.
 
-![The original AA mark, first developed with pen and paper.](../assets/lore/logo-redesign/01-original-monogram.webp){fig-alt="A thin black personal monogram made from angular lines that combine two letter A forms."}
+![The original AA mark, first developed with pen and paper.](../assets/lore/logo-redesign/01-original-monogram.webp){fig-alt="The original thin, angular AA personal mark."}
 
-There was not a huge symbolic system behind it. It was just a compact mark that I could draw by hand and recognize as mine.
+Later I made the strokes heavier and curved the cross-arms.
 
-That is a useful place to start. A personal logo does not need to explain your entire life. It needs a clear idea.
+![The revised AA mark with heavier strokes and curved cross-arms.](../assets/lore/logo-redesign/02-curved-monogram.webp){fig-alt="A heavier AA monogram with curved cross-arms."}
 
-## Change one thing at a time
+The curve feels more supportive than a straight bar. It can suggest an arch, a truss, an umbrella, part of a circle, an arrow, or the leading edge of a kite. Those references matter to me, but the logo does not need to explain all of them to everyone who sees it.
 
-Years later, I came back to the mark and changed its geometry.
+That is the point of a **personal logo**. It should be simple, memorable, reproducible, and recognizable at a small size. It should represent you without trying to tell your entire life story.
 
-I made the lines thicker and introduced more curve.
+## Identity can change without rejecting where it came from
 
-![A thicker and more curved revision of the AA mark.](../assets/lore/logo-redesign/02-curved-monogram.webp){fig-alt="A bold black AA monogram with a curved cross member and heavier strokes."}
+I was raised Catholic, and I still think of myself as a disciple of Jesus. That formation is part of me, but I do not need religion to be the organizing identity of a public educational site.
 
-Part of that change is simply where my taste has moved as I have gotten older. The first mark is sharp and narrow. The newer one feels heavier, calmer, and more supported.
+In Canada today, Catholic identity is not something I need a logo to defend, and I also do not want a public mark to be read as alignment with extreme religious or political positions. I would rather carry forward the values that matter to me, including service, care, humility, community, responsibility, and connection, while leaving room to work and learn with people whose beliefs are different from mine.
 
-The curve also started connecting to other things I care about. It can read like an arch in a bridge, a structural member in a truss, the canopy of an umbrella, the leading edge of a kite from kiteboarding, part of a circle, or even an arrow pointing upward.
+That helped push the mark away from being read too literally as a religious symbol and toward forms that could connect more broadly: structure, motion, shelter, direction, growth, and place.
 
-Not every viewer has to see every one of those things. In fact, they probably will not. A symbol can carry several associations without turning all of them into literal pictures.
+## The black-and-white experiments
 
-That became one of the main design lessons for me: **suggestion is often stronger than explanation**.
+Once I moved from paper into digital tools, I deliberately explored too many ideas. Some were useful logo studies. Some became abstract art instead of logos. That distinction was helpful.
 
-## When an experiment becomes art instead of a logo
+::: {.commons-logo-gallery}
+![A chronological gallery of AA and Commons identity studies, beginning with the curved AA mark, moving through black-and-white geometric experiments, then lighthouse, leaf, root, wave, and colour studies before the current emblem.](../assets/lore/logo-redesign/05-logo-redesign-gallery.webp){fig-alt="Chronological gallery of twelve logo and emblem studies."}
+:::
 
-Once I started exploring the shape digitally, I pushed it much further.
+The black-and-white studies forced me to look at shape without depending on colour, texture, glow, or shading. Some of the circular and mirrored versions are interesting images, but they are closer to abstract art. If a design becomes unreadable at favicon size or depends on visual effects to work, it is probably not doing the job of a logo anymore.
 
-![A mirrored, metallic black-and-white experiment based on the AA geometry.](../assets/lore/logo-redesign/03-abstract-art-detour.webp){fig-alt="A glossy black and white circular abstract composition built from mirrored versions of the AA shape."}
+## From a personal logo to a Commons emblem
 
-I like this image, but I do not really think of it as a logo.
+The larger symbol is doing a different job. It represents **Technology Commons**, not just me, so it can carry more information than the AA logo.
 
-It is closer to abstract art. The gradients, reflections, mirrored geometry, and depth make it interesting as an image, but they also make it harder to reproduce consistently. It depends on shading. It becomes fragile at small sizes. It would be awkward to cut from vinyl, engrave with a laser, emboss, print in one colour, or use as a tiny favicon.
+The current emblem combines several ideas:
 
-That is an important distinction for students making their own marks. Something can be visually interesting and still fail as a logo.
+- the **AA structure** represents my authorship and support for the Commons
+- the **lighthouse** connects to Port Credit Secondary School and suggests guidance and stewardship
+- the **rocket-like upward form** connects the identity to science, technology, engineering, and aspiration
+- the **water** connects to Port Credit, flow, movement, and learning
+- the **roots** suggest heritage, growth, and a foundation that can exist even below the visible waterline
+- the enclosing **circle** makes the image read as a shared organizational emblem rather than only a personal monogram
 
-A good test is to remove the effects. If the design only works because of glow, gradients, shadows, or texture, the underlying mark may not be strong enough yet.
+The lighthouse, leaves, roots, waves, and light did not arrive at once. Early versions added too much. Other versions became so simple that they lost the character I wanted. The current version sits between those extremes.
 
-## Turning the mark into a crest
+## Watching the identity iterate
 
-The next idea was different.
+::: {.commons-logo-progression}
+![Animated progression from the AA mark through geometric studies and lighthouse iterations to the current Technology Commons emblem.](../assets/lore/logo-redesign/06-logo-redesign-progression.gif){fig-alt="Animated sequence showing the logo progressing from a simple AA mark to the current Commons emblem."}
+:::
 
-I wanted to keep a simple personal logo, but I also wanted a fuller **crest** that could say more about me. The AA mark could remain the compact symbol. The crest could hold more of the story.
+The animation makes the design process easier to see. The identity does not jump from one answer to another. It accumulates ideas, rejects some of them, and then simplifies again.
 
-That led to a circle and a lighthouse.
+For students, that is the part worth copying. Start with a mark you can draw. Make several versions. Keep the rejected ideas. Test everything in black and white and at small size. Then decide whether you are making a **personal logo**, which should remain compact, or an **emblem for an organization, product, project, or community**, which may have room to carry a larger story.
 
-The lighthouse connects to Port Credit. It also naturally carries ideas of place, direction, light, guidance, and looking outward. The original AA geometry is still there, but it becomes part of the structure around the lighthouse instead of sitting by itself.
-
-From there I started introducing other forms. Roots could represent where something comes from and what keeps it grounded. Leaves could represent growth. Water connects to the lake and to movement. The circular boundary makes the whole thing read more like a crest or seal instead of a loose illustration.
-
-The challenge was no longer finding ideas.
-
-The challenge was deciding how many ideas the crest could survive.
-
-## Simplify, add colour, then simplify again
-
-The crest did not arrive all at once. I went through black-and-white versions first, then colour, then versions with more and more symbolic detail.
-
-![Five stages of the crest, from early black-and-white experiments through the selected design and an intentionally over-complex version.](../assets/lore/logo-redesign/04-crest-iteration-sequence.webp){fig-alt="Five crest iterations labelled Early B&W, Lighthouse plus AA, Simpler, Selected, and Over-complex."}
-
-The early black-and-white versions helped me figure out whether the lighthouse and AA structure were recognizable without relying on colour. Once that worked, blue and gold gave the design a clearer identity.
-
-The simpler colour version is very clean, but it loses some of the character I wanted. The version labelled **Selected** is the one I ultimately preferred. It keeps the lighthouse, AA structure, light, water, growing forms, and roots, while still reading quickly as a crest.
-
-Then I kept going.
-
-The final experiment in the sequence contains more of almost everything: more leaves, more waves, more roots, more line changes, and more things competing for attention. At a large size it can work as an illustration. At a small size, the hierarchy starts to collapse.
-
-That over-complex version was useful because it showed me where to stop. The design process stopped being about adding meaning and became about editing.
-
-The version in the middle had enough detail to feel like a crest, but it was still simple enough to function as one.
-
-## What I want students to notice
-
-For the first logo assignment, I do not want everyone to make a lighthouse, a circle, or anything that looks like mine. The useful part to copy is the **process**:
-
-1. Start on paper and make a mark you can draw yourself.
-2. Choose a small number of ideas that actually matter to you.
-3. Make several versions instead of trying to perfect the first one.
-4. Change one or two things at a time so you can see what each decision does.
-5. Test the design in black and white, at small size, and as something that could actually be made.
-6. Keep the experiments, including the bad ones, because they show how the final design developed.
-7. Stop adding when the design begins explaining itself instead of symbolizing.
-
-A logo is not a biography. A crest can carry more, but it still needs hierarchy.
-
-The strongest version is often not the one with the most meaning packed into it. It is the one where the important ideas survive simplification.
-
-## The rejected versions are part of the work
-
-I am keeping the other versions because they matter.
-
-The abstract black-and-white experiment helped me see the difference between art and identity design. The early lighthouse versions helped me decide what needed to be recognizable. The over-complex crest showed me where detail stopped helping.
-
-Eventually I will add a ZIP containing the wider set of logo experiments that led to the crest, including the versions that did not make the final cut.
-
-That archive is not just extra material. It is evidence of iteration.
-
-The first sketch and the final crest matter, but the space between them is where most of the design happened.
+The first sketch and the final emblem matter. Most of the design happened between them.
