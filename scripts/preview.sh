@@ -5,6 +5,6 @@ TARGET="${1:-site/index.qmd}"
 PORT="${PORT:-6590}"
 
 echo "Fast Quarto preview: ${TARGET} on port ${PORT}"
-echo "Use ./scripts/preview.sh site when you explicitly want a full-site preview."
+echo "Use: bash scripts/preview.sh site when you explicitly want a full-site preview."
 
 exec quarto preview "${TARGET}" --port "${PORT}"
