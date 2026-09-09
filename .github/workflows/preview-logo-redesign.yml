@@ -27,9 +27,25 @@ jobs:
           version: '1.10.18'
 
       - name: Render site
-        run: quarto render site
+        shell: bash
+        run: |
+          set +e
+          quarto render site > /tmp/quarto-render.log 2>&1
+          status=$?
+          tail -n 250 /tmp/quarto-render.log
+          exit $status
+
+      - name: Upload render log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logo-redesign-render-log
+          path: /tmp/quarto-render.log
+          if-no-files-found: warn
+          retention-days: 3
 
       - name: Upload rendered site
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: logo-redesign-site
