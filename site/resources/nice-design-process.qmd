@@ -1,30 +1,50 @@
 ---
 title: "NICE Design Process"
-subtitle: "RESOURCE :: DESIGN PROCESS"
+description: "A cyclical engineering design process used across Technology Commons."
 page-layout: article
 toc: true
-toc-depth: 2
 format:
   html:
+    title-block-style: plain
     body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
 ---
 
-NICE is the design process used throughout Technology Commons. It is a cycle, not a checklist.
+::: {.bs-lesson-preamble}
+NICE is a repeatable engineering design cycle for moving from a problem to evidence, reflection, and a better next version.
+:::
 
 ## N: Needs & Necessities
 
-Identify the problem, the people involved, the constraints, and the things the solution must accomplish.
+Define what the design must do.
+
+A **need** is a minimum condition the design must satisfy. A **necessity** is something important that improves the solution, but can be prioritized or traded against other considerations.
+
+Record requirements so they can be tested later.
 
 ## I: Investigate & Inquire
 
-Ask questions, research existing solutions, study standards and techniques, and gather the information needed to make good decisions.
+Ask questions before committing to a solution.
+
+Research existing approaches, investigate materials and processes, identify constraints, collect measurements, test assumptions, and record useful evidence.
 
 ## C: Create & Communicate
 
-Sketch, model, code, build, test, document, and explain the work so that other people can understand what was created and why.
+Generate possible solutions, choose a direction, and make the idea testable.
+
+Depending on the project, this can include sketches, CAD, code, schematics, calculations, prototypes, fabricated parts, photos, demonstrations, and technical explanations.
 
 ## E: Evaluate
 
-Compare the result with the original needs and necessities. Use evidence to decide what worked, what did not, and what should change next.
+Compare the result with the original needs and necessities.
 
-The result of Evaluate feeds back into Needs & Necessities, beginning the next cycle.
+Record what worked, what failed, what evidence supports the conclusion, and what should change next.
+
+## Keep the cycle moving
+
+NICE is not a one-way checklist.
+
+**N -> I -> C -> E -> N**
+
+Evaluation creates new information. That information changes the next set of needs, questions, and design decisions.

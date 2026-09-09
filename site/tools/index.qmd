@@ -1,31 +1,33 @@
 ---
 title: "Tools"
+description: "Interactive tools and external technical applications used across Technology Commons."
 page-layout: full
 toc: false
 format:
   html:
+    title-block-style: plain
     body-classes: "bs-editorial-page bs-title-eyebrow"
-subtitle: "COMMONS :: TOOLS"
+execute:
+  enabled: false
 ---
 
-:::: {.bs-page-shell}
+::: {.bs-page-shell}
 ::: {.bs-reading-column}
-Tools are things you operate to do work. The first version of the Commons keeps this list small and points to the tools used directly in the courses.
-
-## Design
-
-- Onshape
-- Photopea
-
-## Computing and data
-
-- GitHub
-- Kaggle
-
-## Electronics
-
-- Tinkercad Circuits
-
-As the Commons grows, this page can become a searchable finder without changing the course structure.
+::: {.bs-editorial-lead}
+Tools are things you operate: calculators, simulators, converters, coding helpers, CAD systems, and other interactive technical applications.
 :::
-::::
+
+Technology Commons will collect course tools here as they are added.
+
+## Planned tool groups
+
+- design and measurement
+- electronics and digital logic
+- programming and data
+- fabrication
+- transportation and automotive work
+- NICE project planning
+
+The interactive NICE tool is planned after the core course shell is stable.
+:::
+:::

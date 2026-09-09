@@ -1,36 +1,34 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!mindfulness/"
+    - "!posts/"
+    - "!research/"
   pre-render:
   - python ../scripts/bs_pre_render.py
-  - python ../scripts/page_publication.py validate-source
-  post-render:
-  - python ../scripts/bs_post_render.py
-  - python ../scripts/page_publication.py apply
   resources:
     - assets/logo.svg
     - "assets/icons/**"
     - "assets/social/generated/*.png"
+    - assets/bs-learn.js
+    - assets/bs-lesson-analysis.js
+    - assets/bs-learn-scroll.js
+    - assets/bs-research-index.js
+    - assets/bs-research-scroll.js
     - assets/bs-glossary.js
     - assets/bs-glossary-lookup.json
     - assets/bs-learn-sequence.json
     - assets/bs-research-sequence.json
     - "assets/positions/**"
     - data/lesson-analysis-svg-mvp.json
-    - data/checker-sage-gnu-disagreement-001.json
-    - "data/engine-benchmark/**"
-    - "engine-benchmark/**/figures/**"
-    - "engine-benchmark/**/tables/**"
-    - "engine-benchmark/**/data/**"
-    - "engine-benchmark/**/captions.yml"
-    - "engine-benchmark/**/PUBLICATION_MANIFEST.yml"
-    - "engine-benchmark/**/checksums.sha256"
 
 filters:
   - bs-link-policy
 
 metadata-files:
-  - _publication.yml
+  - _learn-navigation.yml
 
 website:
   title: "Technology Commons"
@@ -38,10 +36,6 @@ website:
   search:
     location: navbar
     type: overlay
-  image: /assets/social/generated/social-default.png
-  open-graph: true
-  twitter-card:
-    card-style: summary_large_image
   navbar:
     title: "Technology Commons"
     collapse-below: xl
@@ -56,9 +50,13 @@ website:
         text: Tools
       - href: resources/index.qmd
         text: Resources
-      - href: research/index.qmd
-        text: Research
+      - href: wellbeing/index.qmd
+        text: Wellbeing
     right:
+      - href: glossary/index.qmd
+        text: Glossary
+      - href: lore/index.qmd
+        text: Lore
       - href: about.qmd
         text: About
   sidebar:
@@ -147,12 +145,13 @@ website:
               href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
-      Technology Commons
+      Site created by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade)
     center:
-      - text: "Open course materials for technology education"
+      - text: "Educational content: CC BY-SA 4.0"
+        href: /licensing.html
     right:
-      - text: About
-        href: /about.html
+      - text: "Code: AGPL-3.0-only"
+        href: /licensing.html
 
 format:
   html:
@@ -160,6 +159,7 @@ format:
     css:
       - assets/bs-shared.css
       - assets/bs-components.css
+      - assets/commons-overrides.css
       - assets/bs-learn.css
       - assets/bs-lesson-analysis.css
     include-after-body:

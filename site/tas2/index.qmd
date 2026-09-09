@@ -1,21 +1,25 @@
 ---
 title: "TAS2O - Exploring Technologies"
-subtitle: "COURSE :: TAS2O"
-sidebar: tas2
-page-layout: article
+description: "Course home for TAS2O Exploring Technologies."
+page-layout: full
 toc: false
 format:
   html:
+    title-block-style: plain
     body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
 ---
 
+::: {.bs-page-shell}
+::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-TAS2O introduces technology through designing, making, testing, and documenting. Students work with digital design, measurement, CAD, fabrication, electronics, and project communication.
+TAS2O is a hands-on introduction to technological design. Students move from personal identity and digital design into CAD, fabrication, electronics, and an integrated project portfolio.
 :::
 
-<details class="bs-answer-panel" open>
-<summary>Course outline</summary>
-<div class="bs-answer-panel-content">
+## Course path
+
+The course will be organized around short design-and-build cycles:
 
 1. Starting Point
 2. Identity, Logo & Emblem
@@ -25,14 +29,6 @@ TAS2O introduces technology through designing, making, testing, and documenting.
 6. Electronics & Tinkercad
 7. Integrated Project & Portfolio
 
-</div>
-</details>
-
-<details class="bs-answer-panel">
-<summary>How the course works</summary>
-<div class="bs-answer-panel-content">
-
-The [NICE Design Process](../resources/nice-design-process.qmd) is used throughout. Projects move from an idea to digital design, physical making, testing, and reflection. The portfolio develops as the work is completed rather than being assembled only at the end.
-
-</div>
-</details>
+Detailed lessons and the course sidebar are added in the next curriculum iteration.
+:::
+:::

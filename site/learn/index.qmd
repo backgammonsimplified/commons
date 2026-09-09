@@ -1,13 +1,20 @@
 ---
 title: "Learn"
-description: "Clear, position-based lessons for understanding backgammon decisions, from beginner foundations to advanced play."
+description: "Technology Commons course materials and project-based learning."
 sidebar: learn
 page-layout: full
-bibliography: ../references.bib
 body-classes: bs-learn-index
 toc: false
 execute:
   enabled: false
 ---
 
-{{< include _lesson-catalogue.html >}}
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+The original Learn presentation shell is being retained while Technology Commons course materials are moved into place.
+:::
+
+TAS2O, TEJ3M/4M, and TTJ3C/4C course navigation will replace the former lesson catalogue in the next curriculum migration passes.
+:::
+:::
