@@ -118,13 +118,13 @@ A shared engineering design cycle for defining requirements, investigating, crea
 ::: {.bs-repository-copy}
 <span class="bs-repository-label">ATTENTION :: ROUTINE :: REFLECTION</span>
 
-### Wellbeing
+### Classroom Openings
 
-Brief classroom opening and closing routines that support attention, reflection, transitions, and a positive learning environment.
+Teacher-facing classroom opening and closing routines that support attention, reflection, transitions, and a positive learning environment.
 :::
 
 ::: {.bs-repository-action}
-[Open Wellbeing](wellbeing/index.qmd)
+[Open Classroom Openings](wellbeing/index.qmd)
 :::
 :::::
 
