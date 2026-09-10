@@ -90,8 +90,9 @@ def main():
             page.wait_for_function('typeof Reveal !== "undefined" && Reveal.isReady()')
             before = page.evaluate('Reveal.getIndices().h')
             page.keyboard.press('ArrowRight')
-            page.wait_for_timeout(300)
+            page.wait_for_timeout(800)
             assert page.evaluate('Reveal.getIndices().h') > before
+            assert 'A modern phone' in page.evaluate('Reveal.getCurrentSlide().innerText')
             page.screenshot(path=str(OUTPUT / 'nice-slides.png'))
 
             page.set_viewport_size({'width': 390, 'height': 844})

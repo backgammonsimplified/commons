@@ -34,6 +34,7 @@ verified integration is safely on master and the remote heads still match.
   variants. Lore's historical illustrations remain separate from current branding.
 - NICE's existing form markup is a raw HTML block with separate CSS/JS. Fixed
   mobile containment for input and report tables while preserving exports.
+  Corrected RevealJS boundaries so large text stays on its intended slide.
 - Kept the Lore theme rail and positioned the glossary search box below it.
   Removed unused animation styles and moved the embedded system-board bitmap to
   an ordinary asset without changing its bytes.
@@ -57,7 +58,8 @@ verified integration is safely on master and the remote heads still match.
   navigation, Lore filtering and rail placement, glossary searching, the NICE
   live document and Markdown/Word downloads, print visibility, and RevealJS navigation.
 - Master promotion, final render, remote branch cleanup, and final browser results
-  are recorded in the completion report for this task.
+  are recorded in the completion report for this task. Browser verification passed
+  with no local errors or failed external requests.
 
 ## Preserved material and next phase
 

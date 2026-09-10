@@ -4,6 +4,7 @@ subtitle: "A NICE design story"
 format:
   revealjs:
     theme: simple
+    slide-level: 2
     slide-number: true
     controls: true
     progress: true
@@ -17,7 +18,9 @@ execute:
 
 ## Start here
 
-# A modern phone
+```{=html}
+<h1 class="r-fit-text">A modern phone</h1>
+```
 
 Calls. Messages. Camera. Maps. Music. Games. Internet. Payment. School. Work.
 
@@ -29,7 +32,9 @@ Calls. Messages. Camera. Maps. Music. Games. Internet. Payment. School. Work.
 
 Before the smartphone, before the mobile phone, before the telephone:
 
-# People still needed to communicate.
+```{=html}
+<h1 class="r-fit-text">People still needed to communicate.</h1>
+```
 
 The **situation** was different. The need was the same.
 
@@ -79,7 +84,9 @@ Design changed because the available technology changed.
 
 The telephone changed the question:
 
-# What if the wire could carry a voice?
+```{=html}
+<h1 class="r-fit-text">What if the wire could carry a voice?</h1>
+```
 
 People could speak naturally over long distances.
 
@@ -91,7 +98,9 @@ But the phone was tied to a place.
 
 Radio changed another part of the situation:
 
-# What if communication did not need a wire?
+```{=html}
+<h1 class="r-fit-text">What if communication did not need a wire?</h1>
+```
 
 Radio allowed communication while moving and where wires were impractical.
 
@@ -124,7 +133,9 @@ They also ask:
 - What has the military learned about portable communication?
 - What can batteries and electronics now make possible?
 
-# Innovation often comes from combining existing ideas.
+```{=html}
+<h1 class="r-fit-text">Innovation often comes from combining existing ideas.</h1>
+```
 
 ---
 
@@ -134,7 +145,9 @@ Telephone networks were good at connecting one person to another.
 
 Radio was good at communication without a fixed wire.
 
-# What happens when those ideas come together?
+```{=html}
+<h1 class="r-fit-text">What happens when those ideas come together?</h1>
+```
 
 **Mobile telephone**
 
@@ -177,7 +190,9 @@ Voice was no longer enough.
 
 Text messages and email changed what people wanted from a phone.
 
-# New need: enter information quickly.
+```{=html}
+<h1 class="r-fit-text">New need: enter information quickly.</h1>
+```
 
 BlackBerry-style devices used a full physical keyboard because typing had become important.
 
@@ -189,7 +204,9 @@ A physical keyboard made typing easier.
 
 But it also created a new limitation:
 
-# The keyboard always takes up space.
+```{=html}
+<h1 class="r-fit-text">The keyboard always takes up space.</h1>
+```
 
 Even when you are looking at a photo, map, video, game, or webpage.
 
@@ -217,7 +234,9 @@ Instead of deciding every future function when the phone is built, software can 
 
 The user may discover needs they could not have asked for before the technology existed.
 
-# Good design can reveal a need, not only respond to one.
+```{=html}
+<h1 class="r-fit-text">Good design can reveal a need, not only respond to one.</h1>
+```
 
 ---
 
@@ -265,9 +284,13 @@ The situation changes again: sometimes the best screen is the one you do not nee
 
 It was many cycles of:
 
-# Situation
+```{=html}
+<h1 class="r-fit-text">Situation</h1>
+```
 
-# N -> I -> C -> E
+```{=html}
+<h1 class="r-fit-text">N -&gt; I -&gt; C -&gt; E</h1>
+```
 
 Changing needs. New research. New materials. New technologies. New prototypes. New feedback.
 
@@ -293,7 +316,9 @@ Did it work? Are the requirements still right? Did the situation change?
 
 ## Design is a loop
 
-# Situation -> N -> I -> C -> E -> repeat
+```{=html}
+<h1 class="r-fit-text">Situation -&gt; N -&gt; I -&gt; C -&gt; E -&gt; repeat</h1>
+```
 
 The goal is not to predict the perfect final product.
 
