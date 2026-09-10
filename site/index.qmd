@@ -51,7 +51,7 @@ Course materials, projects, tools, references, and classroom routines for techno
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](glossary/index.qmd){.bs-home-explore-link .bs-home-explore-link--glossary}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Wellbeing</span><span class="bs-home-explore-description">Short classroom routines for attention, reflection, self-regulation, and positive transitions into and out of learning.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Classroom Openings</span><span class="bs-home-explore-description">Teacher-facing classroom routines for attention, reflection, self-regulation, and positive transitions into and out of learning.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](wellbeing/index.qmd){.bs-home-explore-link .bs-home-explore-link--wellbeing}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
