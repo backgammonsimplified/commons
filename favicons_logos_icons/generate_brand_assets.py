@@ -2,15 +2,14 @@
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 import cairosvg
-import shutil
 import math
 import ezdxf
 from svgpathtools import svg2paths2
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1] / "site" / "assets" / "branding"
 LOGO = ROOT / "logo"
 EMBLEM = ROOT / "emblem"
-NAVY = "#022751"
+NAVY = "#062650"
 CREAM = "#FAF7F2"
 BLACK = "#111111"
 
@@ -70,22 +69,14 @@ def icon_from_aa(size: int, background=None, white_mark=False):
     return canvas
 
 
-# Text/vector aliases kept in sync with the canonical sources.
-shutil.copy2(LOGO / "aa-logo.svg", LOGO / "aa-logo-black.svg")
-shutil.copy2(LOGO / "aa-logo.svg", LOGO / "favicon.svg")
-shutil.copy2(LOGO / "aa-logo.svg", LOGO / "aa-logo-fabrication.svg")
-shutil.copy2(EMBLEM / "commons-emblem.svg", EMBLEM / "commons-seal.svg")
-shutil.copy2(EMBLEM / "commons-emblem-monochrome-blue.svg", EMBLEM / "commons-emblem-fabrication.svg")
-svg_to_dxf(LOGO / "aa-logo-fabrication.svg", LOGO / "aa-logo-fabrication.dxf")
+# Export fabrication outlines directly from the canonical vectors.
+svg_to_dxf(LOGO / "aa-logo.svg", LOGO / "aa-logo-fabrication.dxf")
 svg_to_dxf(EMBLEM / "commons-emblem-fabrication.svg", EMBLEM / "commons-emblem-fabrication.dxf")
 
 # AA exports
 render_svg(LOGO / "aa-logo.svg", LOGO / "aa-logo-transparent.png", 512)
 render_svg(LOGO / "aa-logo.svg", LOGO / "aa-logo-white-background.png", 512, background="#FFFFFF")
-shutil.copy2(LOGO / "aa-logo-transparent.png", LOGO / "aa-logo-black-transparent.png")
-shutil.copy2(LOGO / "aa-logo-transparent.png", LOGO / "aa-logo-black.png")
 render_svg(LOGO / "aa-logo-white.svg", LOGO / "aa-logo-white-transparent.png", 512)
-shutil.copy2(LOGO / "aa-logo-white-transparent.png", LOGO / "aa-logo-white.png")
 
 icon_from_aa(96).save(LOGO / "favicon-96x96.png")
 icon_from_aa(180, background=(255, 255, 255, 255)).convert("RGB").save(LOGO / "apple-touch-icon.png")
@@ -99,17 +90,13 @@ render_svg(LOGO / "technology-commons-lockup.svg", LOGO / "technology-commons-lo
 # Emblem exports
 render_svg(EMBLEM / "commons-emblem.svg", EMBLEM / "commons-emblem-transparent.png", 1024)
 render_svg(EMBLEM / "commons-emblem.svg", EMBLEM / "commons-emblem-white-background.png", 1024, background="#FFFFFF")
-shutil.copy2(EMBLEM / "commons-emblem-transparent.png", EMBLEM / "commons-seal-transparent.png")
-shutil.copy2(EMBLEM / "commons-emblem-white-background.png", EMBLEM / "commons-seal-white.png")
 
 render_svg(EMBLEM / "commons-emblem-monochrome-blue.svg", EMBLEM / "commons-emblem-monochrome-blue-transparent.png", 1024)
 render_svg(EMBLEM / "commons-emblem-monochrome-blue.svg", EMBLEM / "commons-emblem-monochrome-blue-white-background.png", 1024, background="#FFFFFF")
-shutil.copy2(EMBLEM / "commons-emblem-monochrome-blue-transparent.png", EMBLEM / "commons-emblem-monochrome-blue.png")
 
 render_svg(EMBLEM / "commons-emblem-monochrome-light.svg", EMBLEM / "commons-emblem-monochrome-light-transparent.png", 1024)
 render_svg(EMBLEM / "commons-emblem-monochrome-light.svg", EMBLEM / "commons-emblem-monochrome-light-white-background.png", 1024, background="#FFFFFF")
 render_svg(EMBLEM / "commons-emblem-monochrome-light.svg", EMBLEM / "commons-emblem-monochrome-light-navy-background.png", 1024, background=NAVY)
-shutil.copy2(EMBLEM / "commons-emblem-monochrome-light-transparent.png", EMBLEM / "commons-emblem-monochrome-light.png")
 
 # Static social image. This is a single fixed export, not a social-card generator.
 seal = Image.open(EMBLEM / "commons-emblem-white-background.png").convert("RGBA")
@@ -117,21 +104,12 @@ seal.thumbnail((500, 500), Image.Resampling.LANCZOS)
 canvas = Image.new("RGB", (1200, 630), CREAM)
 canvas.paste(seal.convert("RGB"), (55, (630 - seal.height) // 2))
 draw = ImageDraw.Draw(canvas)
-try:
-    title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 64)
-    sub_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
-except OSError:
-    title_font = sub_font = None
+font_path = ROOT.parent / "fonts" / "SourceSans3-VariableFont_wght.ttf"
+title_font = ImageFont.truetype(str(font_path), 64)
+sub_font = ImageFont.truetype(str(font_path), 30)
 draw.text((585, 220), "Technology", fill=NAVY, font=title_font)
 draw.text((585, 290), "Commons", fill=NAVY, font=title_font)
 draw.text((590, 385), "Learning, making, and growing.", fill="#39415F", font=sub_font)
 canvas.save(EMBLEM / "commons-social.png")
-
-# Compatibility copies at the historical root paths used by the copied site.
-for name in [
-    "favicon.svg", "favicon.ico", "favicon-96x96.png", "apple-touch-icon.png",
-    "web-app-manifest-192x192.png", "web-app-manifest-512x512.png", "site.webmanifest",
-]:
-    shutil.copy2(LOGO / name, ROOT / name)
 
 print("Technology Commons branding exports generated.")
