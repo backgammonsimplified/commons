@@ -46,7 +46,7 @@ website:
         text: Glossary
     right:
       - href: wellbeing/index.qmd
-        text: Wellbeing
+        text: Classroom Openings
       - href: lore/index.qmd
         text: Lore
       - href: about.qmd
@@ -137,7 +137,7 @@ website:
               href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
-      Site created by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade)
+      Built by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade)
     center:
       - text: "Educational content: CC BY-SA 4.0"
         href: /licensing.html
