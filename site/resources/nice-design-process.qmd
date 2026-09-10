@@ -126,10 +126,20 @@ The important idea is not that one person invented the modern phone. It is that 
 
 [View the phone evolution NICE slides](nice-design-process-slides.qmd)
 
-[Open the NICE Project Builder](../tools/nice-design-tool.qmd)
-
 ## Remember
 
 **Situation -> N -> I -> C -> E -> repeat**
 
 The goal is not to get the first design right. The goal is to learn enough each cycle to make the next decision better.
+
+## Use NICE on your first project
+
+You do not need a complicated invention to learn the design process. A simple product such as a **name tag** is enough. You can define what it must do, rank what would make it better, investigate possible solutions, build a version, test it, and then improve it.
+
+Use the [NICE Project Builder](../tools/nice-design-tool.qmd) to organize and document the process.
+
+Start with the name-tag activity for your course:
+
+- [TAS2O: Identity, Logo & Emblem](../tas2/02-identity-logo-emblem.qmd#first-product-name-tag)
+- [TEJ3M / TEJ4M: Starting Point](../tej3-4/01-starting-point.qmd#first-product-name-tag)
+- [TTJ3C / TTJ4C: Identity, Marque & Shop Log](../ttj3-4/02-identity-marque-shop-log.qmd#first-product-name-tag)
