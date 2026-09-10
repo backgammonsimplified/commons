@@ -13,6 +13,12 @@ format:
 
 Begin with the same private identity mind map used across the Commons. Consider interests, strengths, goals, problems worth solving, and how you want your technical work to be known.
 
+## First product: name tag
+
+Start with a simple product that gives you something real to design, make, test, photograph, and improve before computer access becomes a barrier. Create a name tag that clearly shows your name, can stand at your workspace, and can later incorporate your personal logo.
+
+Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify needs, rank useful extras, investigate possible solutions, create a first version, and evaluate it against the requirements before improving it.
+
 ## Computer systems overview
 
 Map a computer as a system: processor, memory, storage, operating system, network, software, users, and data.
