@@ -63,32 +63,7 @@ body.bs-landing-page
   mask-image: url("icons/commons-lore.svg");
 }
 
-/* Lore article title metadata.
-   Match the restrained Backgammon Simplified taxonomy treatment and keep
-   author/date metadata compact. */
-
-body.bs-research-article #title-block-header .quarto-categories {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.8rem;
-}
-
-body.bs-research-article #title-block-header .quarto-category {
-  display: inline-flex;
-  align-items: center;
-  min-height: 1.95rem;
-  padding: 0.32rem 0.56rem;
-  border: 1px solid var(--bs-border-strong);
-  border-radius: 4px;
-  background: var(--bs-surface);
-  color: var(--bs-text-secondary);
-  font-size: 0.74rem;
-  font-weight: 680;
-  line-height: 1.15;
-  text-transform: none;
-}
-
+/* Lore article title metadata. */
 body.bs-research-article #title-block-header .quarto-title-meta {
   display: flex;
   flex-wrap: wrap;
@@ -101,28 +76,133 @@ body.bs-research-article #title-block-header .quarto-title-meta > div {
   display: flex;
   align-items: baseline;
   gap: 0.42rem;
+  margin: 0;
+}
+
+body.bs-research-article #title-block-header .quarto-title-meta-heading,
+body.bs-research-article #title-block-header .quarto-title-meta-contents,
+body.bs-research-article #title-block-header .quarto-title-meta-contents p {
+  margin: 0;
+  line-height: 1.35;
 }
 
 body.bs-research-article #title-block-header .quarto-title-meta-heading {
-  margin: 0;
   color: var(--bs-navy-dark);
   font-size: 0.78rem;
   font-weight: 760;
   letter-spacing: 0;
-  line-height: 1.35;
   text-transform: none;
 }
 
 body.bs-research-article #title-block-header .quarto-title-meta-contents,
 body.bs-research-article #title-block-header .quarto-title-meta-contents p {
-  margin: 0;
   color: var(--bs-text-secondary);
   font-size: 0.88rem;
-  line-height: 1.35;
 }
 
-body.bs-research-article #title-block-header .quarto-title-meta-contents p.author {
-  font-weight: 650;
+/* Lore article themes live in the right rail below the TOC. */
+body.bs-research-article .commons-lore-taxonomy {
+  margin: 1rem 0 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--bs-border);
+}
+
+body.bs-research-article .commons-lore-taxonomy-heading {
+  margin-bottom: 0.5rem;
+  color: var(--bs-text-muted);
+  font-family: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 680;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+body.bs-research-article .commons-lore-taxonomy-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+body.bs-research-article .commons-lore-taxonomy-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.28rem 0.52rem;
+  border: 1px solid var(--bs-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bs-ivory) 58%, var(--bs-surface));
+  color: var(--bs-copper-dark);
+  font-size: 0.73rem;
+  font-weight: 680;
+  line-height: 1.1;
+}
+
+body.bs-research-article #title-block-header .quarto-categories {
+  margin: 0;
+}
+
+/* Logo redesign animation uses the existing source images so it remains lightweight. */
+body.bs-research-article .commons-logo-animation {
+  position: relative;
+  width: min(100%, 720px);
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem auto 2rem;
+  overflow: hidden;
+  border: 1px solid var(--bs-border);
+  border-radius: 8px;
+  background: var(--bs-surface);
+}
+
+body.bs-research-article .commons-logo-animation img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 1rem;
+  opacity: 0;
+  animation: commons-logo-cycle 12s infinite;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(2) {
+  animation-delay: 3s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(3) {
+  animation-delay: 6s;
+}
+
+body.bs-research-article .commons-logo-animation img:nth-child(4) {
+  animation-delay: 9s;
+}
+
+@keyframes commons-logo-cycle {
+  0%, 20% { opacity: 1; }
+  25%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.bs-research-article .commons-logo-animation {
+    aspect-ratio: auto;
+    display: grid;
+    gap: 0.75rem;
+    border: 0;
+    overflow: visible;
+  }
+
+  body.bs-research-article .commons-logo-animation img {
+    position: static;
+    height: auto;
+    opacity: 1;
+    animation: none;
+    border: 1px solid var(--bs-border);
+    border-radius: 8px;
+  }
 }
 
 @media (max-width: 560px) {

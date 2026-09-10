@@ -18,10 +18,12 @@ project:
     - assets/bs-research-index.js
     - assets/bs-research-scroll.js
     - assets/bs-glossary.js
+    - assets/commons-lore.js
     - assets/bs-glossary-lookup.json
     - assets/bs-learn-sequence.json
     - assets/bs-research-sequence.json
     - "assets/positions/**"
+    - "assets/lore/**"
     - data/lesson-analysis-svg-mvp.json
 
 filters:
@@ -50,11 +52,11 @@ website:
         text: Tools
       - href: resources/index.qmd
         text: Resources
-      - href: wellbeing/index.qmd
-        text: Wellbeing
-    right:
       - href: glossary/index.qmd
         text: Glossary
+    right:
+      - href: wellbeing/index.qmd
+        text: Wellbeing
       - href: lore/index.qmd
         text: Lore
       - href: about.qmd
