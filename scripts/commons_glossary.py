@@ -35,6 +35,16 @@ def run_source(command: str) -> None:
 def validate_current_presentation() -> dict[str, int]:
     data = learn_glossary.read_json(PUBLIC_DATA_PATH)
     entries = learn_glossary.validate_public_data(data)
+    expected = {
+        GENERATED_ENTRIES_PATH: learn_glossary.build_entries_html(entries, {}, {}),
+        GENERATED_LOOKUP_PATH: learn_glossary.build_lookup_data(entries, {}),
+    }
+    for path, content in expected.items():
+        if not path.is_file() or path.read_text(encoding="utf-8") != content:
+            raise learn_glossary.ValidationError(
+                f"Stale glossary presentation: {path.name}; "
+                "run python scripts/commons_glossary.py generate"
+            )
     learn_glossary.assert_no_forbidden_text(
         PUBLIC_DATA_PATH.read_text(encoding="utf-8"),
         "tracked public glossary data",
@@ -65,6 +75,17 @@ def validate_current_presentation() -> dict[str, int]:
 
 def generate() -> dict[str, int]:
     run_source("generate-source")
+    entries = learn_glossary.validate_public_data(
+        learn_glossary.read_json(PUBLIC_DATA_PATH)
+    )
+    # The inherited lesson corpus was retired. Preserve definitions without
+    # carrying forward relationships to pages that no longer exist.
+    learn_glossary.write_if_changed(
+        GENERATED_ENTRIES_PATH, learn_glossary.build_entries_html(entries, {}, {})
+    )
+    learn_glossary.write_if_changed(
+        GENERATED_LOOKUP_PATH, learn_glossary.build_lookup_data(entries, {})
+    )
     return validate_current_presentation()
 
 

@@ -30,3 +30,5 @@ Thumbs.db
 /glossary_old/
 /20260730-glossary-overnight-starter*.zip
 .tools/
+
+_freeze/

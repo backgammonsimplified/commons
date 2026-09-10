@@ -1758,6 +1758,10 @@
         toc && toc.getClientRects().length > 0
           ? toc.getBoundingClientRect()
           : sidebarBounds;
+      const themes = marginSidebar.querySelector(".commons-lore-taxonomy");
+      const themesBottom = themes && themes.getClientRects().length > 0
+        ? themes.getBoundingClientRect().bottom
+        : tocBounds.bottom;
       tools.style.setProperty(
         "--bs-refined-tools-left",
         Math.max(16, sidebarBounds.right - toolsWidth) + "px"
@@ -1768,7 +1772,7 @@
       );
       tools.style.setProperty(
         "--bs-refined-tools-top",
-        Math.max(sidebarBounds.top, tocBounds.bottom) + 4 + "px"
+        Math.max(sidebarBounds.top, tocBounds.bottom, themesBottom) + 4 + "px"
       );
       if (backToTop) {
         backToTop.style.setProperty(

@@ -23,12 +23,7 @@
       "learning_tracks": [],
       "redirect_slugs": [],
       "references": [],
-      "related_lessons": [
-        {
-          "route": "/learn/cube/what-the-cube-is-asking.html",
-          "title": "What the Cube Is Really Asking"
-        }
-      ],
+      "related_lessons": [],
       "related_terms": [
         {
           "slug": "attack-zone",
@@ -398,12 +393,7 @@
       "learning_tracks": [],
       "redirect_slugs": [],
       "references": [],
-      "related_lessons": [
-        {
-          "route": "/learn/cube/what-the-cube-is-asking.html",
-          "title": "What the Cube Is Really Asking"
-        }
-      ],
+      "related_lessons": [],
       "related_terms": [
         {
           "term": "Builder"
@@ -470,12 +460,7 @@
       "learning_tracks": [],
       "redirect_slugs": [],
       "references": [],
-      "related_lessons": [
-        {
-          "route": "/learn/game-plans/",
-          "title": "The Main Game Plans"
-        }
-      ],
+      "related_lessons": [],
       "related_terms": [
         {
           "term": "Anchor"
@@ -1006,12 +991,7 @@
       "learning_tracks": [],
       "redirect_slugs": [],
       "references": [],
-      "related_lessons": [
-        {
-          "route": "/learn/game-plans/",
-          "title": "The Main Game Plans"
-        }
-      ],
+      "related_lessons": [],
       "related_terms": [],
       "short_definition": "A back game is a strategy based on holding two or more points deep in your opponent's home board while waiting for a late opportunity to hit.",
       "slug": "back-game",
@@ -1111,12 +1091,7 @@
       "learning_tracks": [],
       "redirect_slugs": [],
       "references": [],
-      "related_lessons": [
-        {
-          "route": "/learn/reading-positions-and-engines/",
-          "title": "Reading Positions and Engine Analysis"
-        }
-      ],
+      "related_lessons": [],
       "related_terms": [
         {
           "slug": "annotation",

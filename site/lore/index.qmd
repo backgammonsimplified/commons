@@ -81,3 +81,5 @@ Teaching and learning are reciprocal. Ideas developed in class can become questi
 ```{=html}
 <script src="../assets/bs-research-index.js" defer></script>
 ```
+
+:::

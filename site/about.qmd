@@ -106,7 +106,7 @@ A shared engineering design cycle for defining requirements, investigating, crea
 :::
 
 ::: {.bs-repository-action}
-[Open NICE](/resources/nice.html)
+[Open NICE](resources/nice-design-process.qmd)
 :::
 :::::
 
@@ -118,13 +118,13 @@ A shared engineering design cycle for defining requirements, investigating, crea
 ::: {.bs-repository-copy}
 <span class="bs-repository-label">ATTENTION :: ROUTINE :: REFLECTION</span>
 
-### Mindfulness & Wellness
+### Wellbeing
 
 Brief classroom opening and closing routines that support attention, reflection, transitions, and a positive learning environment.
 :::
 
 ::: {.bs-repository-action}
-[Open Mindfulness & Wellness](/mindfulness/)
+[Open Wellbeing](wellbeing/index.qmd)
 :::
 :::::
 
@@ -136,13 +136,13 @@ Brief classroom opening and closing routines that support attention, reflection,
 ::: {.bs-repository-copy}
 <span class="bs-repository-label">CLASSROOM :: TECHNICAL :: OPEN EDUCATION</span>
 
-### Research
+### Lore
 
 Classroom experiments, technical investigations, project notes, and research connected to technology education.
 :::
 
 ::: {.bs-repository-action}
-[Read Research](/research/)
+[Read Lore](lore/index.qmd)
 :::
 :::::
 ::::::
@@ -152,7 +152,7 @@ Classroom experiments, technical investigations, project notes, and research con
 
 Technology Commons should be useful first. A student should be able to open the site during class, find the right course or tool, and continue working without needing to understand how the site itself is organized.
 
-[See what is being explored in Research ->](/research/)
+[See what is being explored in Lore ->](lore/index.qmd)
 
 ::::::: {.bs-section .bs-section--compact .bs-section--ruled-top}
 ::: {.bs-eyebrow}

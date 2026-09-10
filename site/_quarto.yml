@@ -9,28 +9,18 @@ project:
   pre-render:
   - python ../scripts/bs_pre_render.py
   resources:
-    - assets/logo.svg
     - "assets/icons/**"
-    - "assets/social/generated/*.png"
+    - "assets/branding/**"
+    - assets/nice-design-tool.js
     - assets/bs-learn.js
-    - assets/bs-lesson-analysis.js
-    - assets/bs-learn-scroll.js
     - assets/bs-research-index.js
-    - assets/bs-research-scroll.js
     - assets/bs-glossary.js
     - assets/commons-lore.js
     - assets/bs-glossary-lookup.json
-    - assets/bs-learn-sequence.json
-    - assets/bs-research-sequence.json
-    - "assets/positions/**"
     - "assets/lore/**"
-    - data/lesson-analysis-svg-mvp.json
 
 filters:
   - bs-link-policy
-
-metadata-files:
-  - _learn-navigation.yml
 
 website:
   title: "Technology Commons"
@@ -163,7 +153,6 @@ format:
       - assets/bs-components.css
       - assets/commons-overrides.css
       - assets/bs-learn.css
-      - assets/bs-lesson-analysis.css
     include-after-body:
       - includes/bs-scripts.html
     include-in-header:
