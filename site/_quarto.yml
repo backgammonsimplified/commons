@@ -46,7 +46,7 @@ website:
         text: Glossary
     right:
       - href: wellbeing/index.qmd
-        text: Classroom Openings
+        text: Well-being
       - href: lore/index.qmd
         text: Lore
       - href: about.qmd
@@ -137,13 +137,12 @@ website:
               href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
-      Built by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade)
-    center:
-      - text: "Educational content: CC BY-SA 4.0"
-        href: /licensing.html
+      Open sourced by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) for Port Credit Secondary School's Technology Department, SciTech Department, and Manufacturing Specialist High Skills Major (SHSM). Hosted on [GitHub Pages](https://github.com/mrandrewandrade/commons).
+    center: |
+      Text: [CC BY-SA 4.0](/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](/licensing.html), copyleft applies.
     right:
-      - text: "Code: AGPL-3.0-only"
-        href: /licensing.html
+      - text: About
+        href: /about.html
 
 format:
   html:
