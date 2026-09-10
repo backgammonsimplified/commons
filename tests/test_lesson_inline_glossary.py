@@ -321,54 +321,8 @@ highlighted-terms: [ace]
             glossary_html,
         )
 
-    def test_real_lesson_highlights_two_approved_terms(self) -> None:
-        lessons = learn_glossary.discover_lessons()
-        highlighted = [
-            lesson
-            for lesson in lessons
-            if lesson.get("highlighted_terms")
-        ]
-        self.assertEqual(len(highlighted), 1)
-        self.assertEqual(
-            highlighted[0]["relative_path"],
-            "cube/what-the-cube-is-asking.qmd",
-        )
-        self.assertEqual(
-            highlighted[0]["highlighted_terms"],
-            ["10-in-the-zone", "active-builder"],
-        )
 
-    def test_real_lesson_has_only_approved_inline_glossary_links(self) -> None:
-        source_path = (
-            ROOT
-            / "site"
-            / "learn"
-            / "cube"
-            / "what-the-cube-is-asking.qmd"
-        )
-        result = self.render(source_path.read_text(encoding="utf-8"))
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(result.stdout.count('class="bs-inline-glossary"'), 2)
-        self.assertIn('data-bs-glossary-slug="10-in-the-zone"', result.stdout)
-        self.assertIn('data-bs-glossary-slug="active-builder"', result.stdout)
-        self.assertIn("<code>Take point ~= risk / (risk + reward)</code>", result.stdout)
-        self.assertNotIn("data-bs-glossary-summary", result.stdout)
 
-    def test_real_lesson_terms_create_relationships_without_extra_highlights(self) -> None:
-        lessons = learn_glossary.discover_lessons()
-        selected = next(
-            lesson
-            for lesson in lessons
-            if lesson["relative_path"] == "cube/what-the-cube-is-asking.qmd"
-        )
-        related = learn_glossary.validate_lessons(lessons, self.entries)
-        public_slugs = {str(entry["slug"]) for entry in self.entries}
-        for slug in selected["terms"]:
-            with self.subTest(slug=slug):
-                if slug in public_slugs:
-                    self.assertIn(selected, related.get(slug, []))
-                else:
-                    self.assertNotIn(slug, related)
 
     def test_real_research_article_uses_the_same_highlight_contract(self) -> None:
         articles = learn_glossary.discover_research_articles()

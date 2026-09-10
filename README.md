@@ -1,149 +1,46 @@
-# Backgammon Simplified
+# Technology Commons
 
-**Questions players ask. Ideas you can use.**
+A Quarto teaching website for TAS2O, TEJ3M/4M and TTJ3C/4C, shared tools,
+resources, a glossary, and Lore. `master` is the canonical branch.
 
-Backgammon Simplified is a free, open-source, question-driven learning project built around real positions, engine evidence, and practical mental models players can use at the board.
+## Build and check
 
-This repository contains the public website and its website-specific analysis services.
+Install Quarto (verified with 1.10.15), Python 3.11+, Node.js, and PyYAML.
+No R, Shiny service, worker, or social-card pipeline is required.
 
-## Website development
-
-See [docs/authoring-guide.md](docs/authoring-guide.md) for the site structure,
-authoring conventions, local preview commands, and route map.
-
-
-## What lives here
-
-- The Quarto website and Learn curriculum
-- Blog posts and educational content
-- The R Shiny position analyzer
-- The website-specific Python worker
-- Direct worker access and support for an external bridge
-- Static assets, build tooling, validation, and deployment configuration
-
-Reusable engine models and wrappers belong in [`backgammon-engine-kit`](https://github.com/backgammonsimplified/backgammon-engine-kit). Scientific engine-versus-engine studies belong in [`backgammon-engine-benchmarks`](https://github.com/backgammonsimplified/backgammon-engine-benchmarks).
-
-## Product structure
-
-- **Learn** teaches ideas through real questions and positions.
-- **Analyze** applies those ideas to positions supplied by readers.
-- **Sage vs GNU** creates interesting engine comparisons and feeds durable questions back into Learn.
-- **Blog** holds research notes, position breakdowns, project updates, and material that is not yet part of the permanent curriculum.
-
-The central learning progression is:
-
-```text
-Question → position → decision → explanation → mental model
-```
-
-## Project values
-
-Backgammon Simplified is a passion project and a public record of the long process of learning to understand the game more deeply.
-
-Use it. Study it. Improve it. Adapt it. Even build a business with it—but credit the project and keep covered improvements open.
-
-That principle is implemented through copyleft licensing:
-
-- software improvements stay open under the **GNU AGPL v3**;
-- adaptations of educational material stay open under **CC BY-SA 4.0**.
-
-## Repository layout
-
-The exact layout may evolve. Preserve the current working `site/`, `shiny/position-dashboard/`, favicon assets, and `social_generator/` paths until migration parity is proven:
-
-```text
-site/                 Quarto website and educational content
-app/ or shiny/        R Shiny analyzer
-worker/               Website-specific Python worker
-scripts/              Build, validation, migration, and maintenance tools
-assets/               Website assets and educational diagrams
-```
-
-See [`LICENSE.md`](LICENSE.md) for the authoritative license mapping.
-
-## Development status
-
-This project is under active development. Interfaces, routes, analysis formats, and curriculum structure may change before a stable release.
-
-## Local development
-
-On Windows, prepare a fresh checkout from Git Bash with:
-
-```bash
-bash scripts/setup/windows-dev.sh
-```
-
-This installs repository-managed Python, Playwright, and R dependencies into
-local environments. Git, Git Bash, Python 3.11+, Node.js, Quarto 1.10.15, and
-R/Rscript remain system prerequisites. See
-[`scripts/setup/SETUP-SOP.md`](scripts/setup/SETUP-SOP.md) for the concise setup
-and recovery procedure.
-
-The canonical website build is:
-
-```powershell
+```sh
+python -m pip install -r requirements.txt
 quarto render site
+python scripts/check_commons.py --rendered
+python -m http.server 6590 --bind 127.0.0.1 --directory site/_site
 ```
 
-Quarto's pre-render hook refreshes and validates the social-card manifest, validates the existing text-only renderer, generates changed PNGs, and checks their dimensions before the site render begins. To run that pipeline directly:
+Open http://127.0.0.1:6590. If the Windows Quarto launcher fails under Program
+Files, use `C:/Progra~1/Quarto/bin/quarto.cmd render site`.
+For editing, use `quarto preview site`. Full renders regenerate the glossary;
+page previews reuse its generated presentation.
 
-```powershell
-python social_generator/scripts/social/run_social_pipeline.py
-```
+## Structure
 
-With the rendered `_site` directory served locally, run the metadata and keyboard smoke test with:
+- `site/_quarto.yml`: one navigation, theme, and render configuration.
+- `site/tas2`, `site/tej3-4`, `site/ttj3-4`: current course outlines and pages.
+- `site/resources`: NICE guide and RevealJS lesson.
+- `site/tools`: NICE Project Builder; its CSS/JS live in `site/assets`.
+- `site/lore`: current stories and reflections.
+- `site/wellbeing`: existing scope page, preserved for the next phase.
+- `glossary/glossary.json`: canonical glossary; inherited Backgammon reference
+  terms are retained pending technology vocabulary work.
+- `site/assets/branding`: canonical AA and corrected lighthouse asset kit.
 
-```powershell
-python social_generator/scripts/social/check_rendered_site.py <local-preview-url>
-```
+Historical Backgammon articles in `site/posts` and `site/research` are excluded
+from rendering. Older migration and testing notes in `docs` remain historical
+references. Use the current [authoring guide](docs/authoring-guide.md),
+[branch report](docs/branch-consolidation.md), and
+[branding guide](favicons_logos_icons/README.md).
 
-The setup command installs the pinned Python dependencies from
-`social_generator/requirements-social.txt`, Playwright Chromium, and the R
-packages declared in `social_generator/requirements-social.R`.
+## Attribution and licensing
 
-A typical development workflow also requires:
-
-- Quarto
-- R and the required R packages
-- Python 3.11 or newer
-- access to the configured analysis worker
-- any external engine dependencies documented by `backgammon-engine-kit`
-
-Do not commit private credentials, deployment secrets, or third-party engine files that cannot be redistributed.
-
-## Source access
-
-The analyzer and other network-facing software are licensed under AGPL-3.0-only. Any modified version offered to users over a network must provide those users with access to the corresponding source code as required by that license.
-
-The official project source is:
-
-<https://github.com/backgammonsimplified/backgammonsimplified.github.io>
-
-## Contributing
-
-Corrections, clearer explanations, reproducible positions, bug reports, and code improvements are welcome.
-
-Contributions should:
-
-- preserve the question-driven educational approach;
-- distinguish engine evidence from interpretation;
-- identify third-party material and its license;
-- avoid implying endorsement by an engine, platform, author, or federation;
-- follow the repository's licensing and attribution rules.
-
-A fuller `CONTRIBUTING.md` will define the review process as the project matures.
-
-## Licensing
-
-This is a mixed-license repository:
-
-- **Software:** AGPL-3.0-only
-- **Educational content:** CC BY-SA 4.0
-- **BS name, logo, and distinctive official branding:** no trademark rights granted
-- **Third-party material:** remains under its original license
-
-See [`LICENSE.md`](LICENSE.md) for details.
-
-## Disclaimer
-
-Engine analysis is evidence, not infallible proof. Backgammon evaluations depend on position encoding, match context, analysis settings, software versions, and methodology. Educational material should make assumptions and uncertainty clear.
+Adapted from Backgammon Simplified by Marty Gale and contributors. Andrew
+Andrade's Commons content and identity are the current site. Preserve inherited
+attribution: software is AGPL-3.0-only; educational material is CC BY-SA 4.0.
+See [LICENSE.md](LICENSE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

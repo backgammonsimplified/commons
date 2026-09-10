@@ -68,31 +68,12 @@ class GlossaryBuildFreshnessTests(unittest.TestCase):
         self.assertEqual(html.count('class="bs-glossary-entry"'), 38)
         self.assertEqual(len(lookup["entries"]), 38)
 
-    def test_partial_render_runs_the_freshness_check(self) -> None:
-        with mock.patch.dict(os.environ, {}, clear=True), mock.patch.object(
-            bs_pre_render, "invalidate_full_build_marker", return_value=False
-        ), mock.patch.object(bs_pre_render, "run") as run:
+    def test_partial_render_reuses_glossary(self) -> None:
+        with mock.patch.dict(os.environ, {}, clear=True), mock.patch.object(bs_pre_render, "run") as run:
             self.assertEqual(bs_pre_render.main(), 0)
+        run.assert_not_called()
 
-        run.assert_called_once_with(
-            [
-                bs_pre_render.sys.executable,
-                str(bs_pre_render.REPO_ROOT / "scripts" / "learn_glossary.py"),
-                "validate",
-            ]
-        )
-
-    def test_partial_render_propagates_a_stale_output_failure(self) -> None:
-        with mock.patch.dict(os.environ, {}, clear=True), mock.patch.object(
-            bs_pre_render, "invalidate_full_build_marker", return_value=False
-        ), mock.patch.object(
-            bs_pre_render,
-            "run",
-            side_effect=subprocess.CalledProcessError(1, ["glossary", "validate"]),
-        ):
-            with self.assertRaises(subprocess.CalledProcessError):
-                bs_pre_render.main()
-
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_full_render_generates_glossary(self) -> None:
+        with mock.patch.dict(os.environ, {"QUARTO_PROJECT_RENDER_ALL": "1"}), mock.patch.object(bs_pre_render, "run") as run:
+            self.assertEqual(bs_pre_render.main(), 0)
+        run.assert_called_once_with([bs_pre_render.sys.executable, str(bs_pre_render.REPO_ROOT / "scripts" / "commons_glossary.py"), "generate"])
