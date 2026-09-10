@@ -30,8 +30,6 @@ execute:
 Before teaching at Port Credit, I was walking through a park along the Mississauga lakeshore in January and wondering how I was going to teach technological design well. Mechatronics had made me comfortable with mechanical, electrical, controls, and robotics design. Wood, aesthetics, material expression, and craft were less familiar territory.
 :::
 
-There is also a small joke built into the name. After enough iteration, testing, and user feedback, the response you hope to hear is: **"Nice design."**
-
 Looking at the trees, I started thinking about wood as a material with its own properties and history. More importantly, I started thinking about design as a natural cycle rather than a straight sequence.
 
 ## Too many boxes
@@ -56,14 +54,16 @@ The design-process models I knew were useful, but they were difficult to hold in
 
 ## N.I.C.E.
 
-I wanted something simple enough to remember at a workbench:
+I wanted something simple enough to remember, and something complementary. So I came up with N.I.C.E. Design:
 
 - **N - Needs and Necessities**
 - **I - Investigate and Inquire**
 - **C - Create and Communicate**
 - **E - Evaluate**
 
-The important move is **E back to N**.
+After enough iteration, testing, and user feedback, the response you hope to hear is: **"Nice design."**
+
+The important move is **E back to a new N in the cycle**.
 
 An MVP or prototype gives us something real to test. Evaluation asks whether the solution met the needs, but it should also ask whether we understood the needs correctly in the first place. Users may reveal priorities they could not describe before seeing or using a solution. The best inventions sometimes expose needs people did not yet know how to name.
 
