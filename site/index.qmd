@@ -1,6 +1,6 @@
 ---
-title: "Mr. Andrade's Technology Classes"
-description: "Course materials, projects, tools, and resources for technology education."
+title: "Technology Commons"
+description: "Course materials, projects, tools, references, and classroom routines for Mr. Andrade's technology classes."
 page-layout: full
 toc: false
 format:
@@ -15,10 +15,10 @@ format:
 TECHNOLOGY COMMONS
 :::
 
-<h1>Mr. Andrade's Technology Classes</h1>
+<h1>Learn by designing, building,<br class="bs-home-desktop-break">testing, and sharing.</h1>
 
 ::: {.bs-hero-copy}
-Course materials, projects, tools, references, and classroom routines for technology education.
+Course materials, projects, tools, references, and classroom routines for Mr. Andrade's technology classes.
 :::
 ::::::
 
