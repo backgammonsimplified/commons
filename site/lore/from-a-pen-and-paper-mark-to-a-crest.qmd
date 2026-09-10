@@ -1,9 +1,9 @@
 ---
-title: "From a Napkin Sketch to a Logo and Commons Emblem"
+title: "From a University Sketch to a Logo and Commons Emblem"
 subtitle: "A personal mark can stay simple while a larger identity carries more of the story"
 description: >
-  How a hand-drawn AA mark became a cleaner personal logo, then expanded through
-  many experiments into the current Technology Commons emblem.
+  How an AA mark I made in university evolved with me as an educator, then expanded
+  through many experiments into the current Technology Commons emblem.
 author: "Andrew Andrade"
 date: "2026-09-09"
 categories:
@@ -31,16 +31,16 @@ execute:
 ---
 
 ::: {.bs-editorial-lead}
-The first version of my mark was the kind of idea that can begin as a sketch on a napkin: two A's reduced until they became one symbol. The useful lesson is not the final image. It is how the identity changed as I kept drawing, testing, removing, and adding meaning.
+I first made my AA mark while I was in university. The useful lesson is not the final image. It is how the identity changed as I changed, kept drawing, tested ideas, removed things, and added meaning.
 :::
 
 ## A personal logo should stay simple
 
-My original AA mark was thin, angular, and easy to draw by hand.
+My original AA mark came from university. It was thin, angular, and easy to draw by hand.
 
-![The original AA mark, first developed with pen and paper.](../assets/lore/logo-redesign/01-original-monogram.webp){fig-alt="The original thin, angular AA personal mark."}
+![The original AA mark I made while I was in university.](../assets/lore/logo-redesign/01-original-monogram.webp){fig-alt="The original thin, angular AA personal mark made in university."}
 
-Later I made the strokes heavier and curved the cross-arms.
+Years later, I changed it because I had changed. As I evolved as an educator and became more mature, I wanted the mark to feel less sharp and more supportive. I made the strokes heavier and curved the cross-arms.
 
 ![The revised AA mark with heavier strokes and curved cross-arms.](../assets/lore/logo-redesign/02-curved-monogram.webp){fig-alt="A heavier AA monogram with curved cross-arms."}
 
@@ -50,23 +50,31 @@ That is the point of a **personal logo**. It should be simple, memorable, reprod
 
 ## Identity can change without rejecting where it came from
 
-I was raised Catholic, and I still think of myself as a disciple of Jesus. That formation is part of me, but I do not need religion to be the organizing identity of a public educational site.
+I am a disciple of Jesus, and I worship one God in three persons: the Father, the Son, and the Holy Spirit.
 
-In Canada today, Catholic identity is not something I need a logo to defend, and I also do not want a public mark to be read as alignment with extreme religious or political positions. I would rather carry forward the values that matter to me, including service, care, humility, community, responsibility, and connection, while leaving room to work and learn with people whose beliefs are different from mine.
+My own emphasis has changed over time. Earlier, I thought most about God as Creator. Later, I focused more on Jesus, the Son, who lived on earth and showed what faith could look like in a human life. More recently, I have tried to honour the Holy Spirit, whom I believe lives and works in each person. That has pushed me to think more about dignity, relationship, service, community, and how I treat the people around me.
 
-That helped push the mark away from being read too literally as a religious symbol and toward forms that could connect more broadly: structure, motion, shelter, direction, growth, and place.
+Those beliefs are part of who I am, but a public educational identity does not need to explain all of them literally. Instead, some of those ideas can appear more indirectly through forms that suggest guidance, support, light, growth, roots, water, connection, and place.
 
-## The experiments are part of the design
+## Selected images
 
-Once I moved from paper into digital tools, I deliberately explored too many ideas. Some were useful logo studies. Some became abstract art instead of logos.
+The experiments are part of the design. I made many versions, including some that were more like abstract art than logos. A few selected images are enough to show how the thinking changed without turning the page into a complete archive.
 
-![A black-and-white abstract exploration built from the AA geometry.](../assets/lore/logo-redesign/03-abstract-art-detour.webp){fig-alt="A black-and-white abstract exploration of the AA geometry."}
+> **Image placeholder: Black-and-white exploration**
+>
+> A selected abstract black-and-white exploration of the AA geometry.
 
-The black-and-white experiments forced me to look at shape without depending on colour, texture, glow, or shading. Circular, mirrored, arrow, and flowing versions all tested different readings of the same basic geometry. Some were interesting images but poor logos. If a design becomes unreadable at favicon size or depends on visual effects to work, it is probably not doing the job of a logo anymore.
+> **Image placeholder: Black-and-white circular stamp**
+>
+> A circular black-and-white version that reads more like a stamp, seal, or crest.
 
-The next step was to move from a personal mark toward an identity for the site.
+![A chronological sequence of lighthouse and Commons emblem iterations, including simpler and intentionally over-complex versions.](../assets/lore/logo-redesign/04-crest-iteration-sequence.webp){fig-alt="A chronological sequence of Commons lighthouse emblem iterations."}
 
-![A chronological sequence of lighthouse and Commons emblem iterations, including simpler and intentionally over-complex versions.](../assets/lore/logo-redesign/04-crest-iteration-sequence.webp){fig-alt="A chronological sequence of Commons emblem iterations."}
+> **Image placeholder: Selected explorations**
+>
+> A small set of the strongest intermediate directions before the final emblem was chosen.
+
+The black-and-white work helped me judge shape without depending on colour, texture, glow, or shading. Some experiments were visually interesting but poor logos. If a design becomes unreadable at favicon size or depends on effects to work, it may be better understood as an illustration or piece of abstract art than as a logo.
 
 ## From a personal logo to a Commons emblem
 
@@ -89,7 +97,7 @@ The selected emblem also has to work as a system, not only as one full-colour im
 
 <div class="commons-logo-system-board" role="img" aria-label="Final lighthouse emblem system showing the selected full-colour emblem, transparent and white-background versions, monochrome versions, reversed use on navy, and size tests from 16 to 512 pixels."><img src="../assets/lore/logo-redesign/05-final-lighthouse-system.webp" style="width: 100%; height: auto;" loading="lazy"></div>
 
-This is the end point of the emblem work for now. The galleries above it should show how the design got here without inventing intermediate states.
+This is the end point of the emblem work for now. The images above should show how the design got here without pretending every experiment was equally important.
 
 For students, that is the part worth copying. Start with a mark you can draw. Make several versions. Keep the rejected ideas. Test everything in black and white and at small size. Then decide whether you are making a **personal logo**, which should remain compact, or an **emblem for an organization, product, project, or community**, which may have room to carry a larger story.
 
