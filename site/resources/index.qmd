@@ -19,7 +19,14 @@ Resources are things you read or reference while designing, building, programmin
 
 ## Design process
 
-[NICE Design Process](nice-design-process.qmd)
+[NICE Design Process](nice-design-process.qmd)  
+A simple student guide to Situation, Needs and Necessities, Inquire and Investigate, Create and Communicate, and Evaluate.
+
+[How Did the Phone Become This?](nice-design-process-slides.qmd)  
+A short slide lesson showing how communication technologies changed as situations, needs, and available technologies changed.
+
+[Open the NICE Project Builder](../tools/nice-design-tool.qmd)  
+Use the interactive tool to document a project and export the result.
 
 ## Reference library
 

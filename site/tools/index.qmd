@@ -17,7 +17,10 @@ execute:
 Tools are things you operate: calculators, simulators, converters, coding helpers, CAD systems, and other interactive technical applications.
 :::
 
-Technology Commons will collect course tools here as they are added.
+## Design and planning
+
+[NICE Project Builder](nice-design-tool.qmd)  
+Document the situation, needs and necessities, inquiry, prototypes, feedback, and evaluation for a design project. The builder creates a project document that can be downloaded as Markdown or Word, or saved as PDF through the browser.
 
 ## Planned tool groups
 
@@ -26,8 +29,5 @@ Technology Commons will collect course tools here as they are added.
 - programming and data
 - fabrication
 - transportation and automotive work
-- NICE project planning
-
-The interactive NICE tool is planned after the core course shell is stable.
 :::
 :::
