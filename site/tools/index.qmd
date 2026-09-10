@@ -1,0 +1,33 @@
+---
+title: "Tools"
+description: "Interactive tools and external technical applications used across Technology Commons."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Tools are things you operate: calculators, simulators, converters, coding helpers, CAD systems, and other interactive technical applications.
+:::
+
+Technology Commons will collect course tools here as they are added.
+
+## Planned tool groups
+
+- design and measurement
+- electronics and digital logic
+- programming and data
+- fabrication
+- transportation and automotive work
+- NICE project planning
+
+The interactive NICE tool is planned after the core course shell is stable.
+:::
+:::
