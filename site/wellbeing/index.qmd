@@ -1,6 +1,6 @@
 ---
-title: "Student Wellbeing"
-description: "Brief classroom routines that support attention, reflection, self-regulation, and positive transitions into and out of learning."
+title: "Classroom Openings"
+description: "Brief teacher-facing classroom routines that support attention, reflection, self-regulation, and positive transitions into and out of learning."
 page-layout: article
 toc: true
 execute:
@@ -13,7 +13,7 @@ A small amount of intentional time at the beginning and end of class can help st
 
 ## What this section is
 
-This section provides **educational classroom routines for student wellbeing**. It is designed to support attention, reflection, self-regulation, classroom climate, and transitions.
+This section provides teachers with **educational classroom routines that support student wellbeing**. It is designed to support attention, reflection, self-regulation, classroom climate, and transitions.
 
 It is **not counselling, psychotherapy, diagnosis, treatment, or a replacement for school mental-health services**.
 
@@ -38,7 +38,7 @@ Teachers should continue to follow employer, school board, school, and Ministry 
 The opening routine should usually take about 3 to 5 minutes.
 
 1. **Quote on the board.** A short quotation, question, proverb, observation, or idea connected to learning, effort, curiosity, craft, responsibility, attention, or community.
-2. **Wellbeing activity.** A brief, approachable activity that helps the class settle and shift attention into the room.
+2. **Classroom opening.** A brief, approachable activity that helps the class settle and shift attention into the room.
 3. **Today's intention.** One sentence about what students are about to learn, make, investigate, repair, or improve.
 
 The activity should feel like a classroom ritual rather than a clinical exercise.
