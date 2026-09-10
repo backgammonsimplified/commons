@@ -9,6 +9,12 @@ format:
     body-classes: "bs-learn-article bs-title-eyebrow"
 ---
 
+## First product: name tag
+
+Start with a simple product that gives you something real to design, make, test, photograph, and improve. Create a name tag that clearly shows your name, can stand at your workspace, and can later incorporate your personal logo.
+
+Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify needs, rank useful extras, investigate possible solutions, create a first version, and evaluate it against the requirements before improving it.
+
 ## Personal logo
 
 Create a simple mark that remains recognizable at a small size and can work in one colour. The challenge is reduction: decide what is essential and remove what is not.
